@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\bin\Debug\net6.0\FormatExeption.exe
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\bin\Debug\net6.0\FormatExeption.deps.json
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\bin\Debug\net6.0\FormatExeption.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\bin\Debug\net6.0\FormatExeption.dll
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\bin\Debug\net6.0\FormatExeption.pdb
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.dll
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\refint\FormatExeption.dll
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.pdb
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\FormatExeption.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\FormatExeption\FormatExeption\obj\Debug\net6.0\ref\FormatExeption.dll

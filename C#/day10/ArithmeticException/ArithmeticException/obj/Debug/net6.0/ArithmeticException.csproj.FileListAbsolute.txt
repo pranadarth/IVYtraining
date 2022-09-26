@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\bin\Debug\net6.0\ArithmeticException.exe
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\bin\Debug\net6.0\ArithmeticException.deps.json
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\bin\Debug\net6.0\ArithmeticException.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\bin\Debug\net6.0\ArithmeticException.dll
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\bin\Debug\net6.0\ArithmeticException.pdb
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.dll
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\refint\ArithmeticException.dll
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.pdb
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ArithmeticException.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\ArithmeticException\ArithmeticException\obj\Debug\net6.0\ref\ArithmeticException.dll

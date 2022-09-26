@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\bin\Debug\net6.0\Bankaccount.exe
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\bin\Debug\net6.0\Bankaccount.deps.json
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\bin\Debug\net6.0\Bankaccount.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\bin\Debug\net6.0\Bankaccount.dll
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\bin\Debug\net6.0\Bankaccount.pdb
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.dll
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\refint\Bankaccount.dll
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.pdb
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\Bankaccount.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\Bankaccount\Bankaccount\obj\Debug\net6.0\ref\Bankaccount.dll
