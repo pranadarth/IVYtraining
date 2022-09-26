@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Notepad.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Notepad.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Notepad.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Notepad.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Notepad.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\Notepad.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Notepad.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\Notepad.dll

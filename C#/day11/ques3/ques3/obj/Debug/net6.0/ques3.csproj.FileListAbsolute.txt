@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\bin\Debug\net6.0\ques3.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\bin\Debug\net6.0\ques3.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\bin\Debug\net6.0\ques3.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\bin\Debug\net6.0\ques3.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\bin\Debug\net6.0\ques3.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\refint\ques3.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ques3.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day11\ques3\ques3\obj\Debug\net6.0\ref\ques3.dll
