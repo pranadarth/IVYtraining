@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\bin\Debug\net6.0\existsException.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\bin\Debug\net6.0\existsException.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\bin\Debug\net6.0\existsException.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\bin\Debug\net6.0\existsException.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\bin\Debug\net6.0\existsException.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\refint\existsException.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\existsException.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\existsException\existsException\obj\Debug\net6.0\ref\existsException.dll

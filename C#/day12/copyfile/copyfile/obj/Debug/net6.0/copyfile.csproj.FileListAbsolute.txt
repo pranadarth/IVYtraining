@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\bin\Debug\net6.0\copyfile.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\bin\Debug\net6.0\copyfile.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\bin\Debug\net6.0\copyfile.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\bin\Debug\net6.0\copyfile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\bin\Debug\net6.0\copyfile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\refint\copyfile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\copyfile.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\copyfile\copyfile\obj\Debug\net6.0\ref\copyfile.dll

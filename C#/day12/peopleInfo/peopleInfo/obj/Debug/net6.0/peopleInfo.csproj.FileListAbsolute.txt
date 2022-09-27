@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\bin\Debug\net6.0\peopleInfo.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\bin\Debug\net6.0\peopleInfo.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\bin\Debug\net6.0\peopleInfo.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\bin\Debug\net6.0\peopleInfo.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\bin\Debug\net6.0\peopleInfo.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\refint\peopleInfo.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\peopleInfo.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\day12\peopleInfo\peopleInfo\obj\Debug\net6.0\ref\peopleInfo.dll
