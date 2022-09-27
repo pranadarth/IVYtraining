@@ -1,0 +1,21 @@
+1)Write a git command to add all the new and modified files.
+
+git add . 
+git commit -m "Message"
+git push
+
+=============================================================================================
+2)Write a git command to commit directly without publishing to the staging environment.
+git commit -m "Message"
+
+=============================================================================================
+3)Learn what the following git commands do: 
+git init - to create new repository \ create within a repository, a main branch). 
+git clone - copy of existin repository.
+git diff - gives the changes between two input data.
+git reset - undoing the changes. 
+git rm - remove files.
+git log - shows track of all the commits that has been made.
+git show - used to view expanded details on git objects. 
+git branch - Creates a isolated development area within a single repository.
+
