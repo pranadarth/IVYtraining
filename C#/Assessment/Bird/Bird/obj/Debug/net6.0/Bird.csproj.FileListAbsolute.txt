@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\bin\Debug\net6.0\Bird.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\bin\Debug\net6.0\Bird.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\bin\Debug\net6.0\Bird.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\bin\Debug\net6.0\Bird.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\bin\Debug\net6.0\Bird.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\refint\Bird.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\Bird.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Bird\Bird\obj\Debug\net6.0\ref\Bird.dll

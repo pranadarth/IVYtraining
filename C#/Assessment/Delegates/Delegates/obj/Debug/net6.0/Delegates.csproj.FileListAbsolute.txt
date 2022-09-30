@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\bin\Debug\net6.0\Delegates.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\bin\Debug\net6.0\Delegates.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\bin\Debug\net6.0\Delegates.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\bin\Debug\net6.0\Delegates.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\bin\Debug\net6.0\Delegates.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\refint\Delegates.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\Delegates.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\Delegates\Delegates\obj\Debug\net6.0\ref\Delegates.dll

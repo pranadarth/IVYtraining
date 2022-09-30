@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\bin\Debug\net6.0\replaceFile.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\bin\Debug\net6.0\replaceFile.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\bin\Debug\net6.0\replaceFile.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\bin\Debug\net6.0\replaceFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\bin\Debug\net6.0\replaceFile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\refint\replaceFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\replaceFile.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\replaceFile\replaceFile\obj\Debug\net6.0\ref\replaceFile.dll

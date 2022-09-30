@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\bin\Debug\net6.0\PhoneBook.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\bin\Debug\net6.0\PhoneBook.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\bin\Debug\net6.0\PhoneBook.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\bin\Debug\net6.0\PhoneBook.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\bin\Debug\net6.0\PhoneBook.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\refint\PhoneBook.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\PhoneBook.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\Assessment\PhoneBook\PhoneBook\obj\Debug\net6.0\ref\PhoneBook.dll
