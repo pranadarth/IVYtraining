@@ -5,13 +5,14 @@ class Math
     {
         for(int i = 1; i <= 10; i++)  
         Console.WriteLine("{0} X {1} = {2}",i,a,i*a);
+        
     }
     public void factorial(int n)
     {
-        int fact = 1;
+        long  fact = 1;
         for (int i = 1; i <= n; i++)
         {
-            fact = fact * i;
+            fact = fact * (long)i;
         }
         Console.WriteLine("Factorial of " + n + " is: " + fact);
     }
@@ -26,5 +27,6 @@ class Math
         Console.Write("\nGive the number to display tables: ");
         i = int.Parse(Console.ReadLine());
         m.table(i);
+        Console.ReadKey();
     }
 }
