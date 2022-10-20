@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\bin\Debug\net6.0\Inbuilt_encryp.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\bin\Debug\net6.0\Inbuilt_encryp.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\bin\Debug\net6.0\Inbuilt_encryp.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\bin\Debug\net6.0\Inbuilt_encryp.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\bin\Debug\net6.0\Inbuilt_encryp.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\refint\Inbuilt_encryp.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\Inbuilt_encryp.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\Inbuilt_encryp\Inbuilt_encryp\obj\Debug\net6.0\ref\Inbuilt_encryp.dll
