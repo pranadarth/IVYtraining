@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfAppPractising.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppPractising"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Name="Check" Orientation="Horizontal">
+        <TextBox Name="TextBox" Text="Hello"/>
+        <Rectangle Fill="Black" Height="10"/>
+        <Label Content="I am lable"/>
+        <ComboBox Name="Select"  Height="20">
+            <ComboBoxItem>Item1</ComboBoxItem>
+            <ComboBoxItem>Item2</ComboBoxItem>
+            <ComboBoxItem>Item3</ComboBoxItem>
+        </ComboBox>
+        <ListBox  Name="List" Opacity="1">
+            <ListBoxItem>List1</ListBoxItem>
+            <ListBoxItem>List2</ListBoxItem>
+            <ListBoxItem>List3</ListBoxItem>
+        </ListBox>
+        <ToggleButton Content="ON" VerticalAlignment="Top"/>
+        <Button Content="Close" Height="20"  VerticalAlignment="Bottom" Opacity="1"  />
+    </StackPanel>
+</Window>

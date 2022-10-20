@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\bin\Debug\net6.0\swapFile.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\bin\Debug\net6.0\swapFile.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\bin\Debug\net6.0\swapFile.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\bin\Debug\net6.0\swapFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\bin\Debug\net6.0\swapFile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\refint\swapFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\swapFile.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\swapFile\swapFile\obj\Debug\net6.0\ref\swapFile.dll

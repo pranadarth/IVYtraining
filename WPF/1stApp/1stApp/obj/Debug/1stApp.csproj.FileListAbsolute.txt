@@ -1,0 +1,16 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\bin\Debug\1stApp.exe.config
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\bin\Debug\1stApp.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\bin\Debug\1stApp.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\MainWindow.g.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\App.g.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp_MarkupCompile.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp_MarkupCompile.lref
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\MainWindow.baml
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp.g.resources
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\_1stApp.Properties.Resources.resources
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp.csproj.GenerateResource.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\1stApp\1stApp\obj\Debug\1stApp.pdb

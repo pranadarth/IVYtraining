@@ -1,0 +1,16 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\bin\Debug\WpfAppPractising.exe.config
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\bin\Debug\WpfAppPractising.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\bin\Debug\WpfAppPractising.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.csproj.SuggestedBindingRedirects.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\MainWindow.g.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\App.g.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising_MarkupCompile.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising_MarkupCompile.lref
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\MainWindow.baml
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.g.resources
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.Properties.Resources.resources
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.csproj.GenerateResource.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\WpfAppPractising\WpfAppPractising\obj\Debug\WpfAppPractising.pdb

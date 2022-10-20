@@ -1,0 +1,15 @@
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.csproj.AssemblyReference.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.AssemblyInfoInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.AssemblyInfo.cs
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.csproj.CoreCompileInputs.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\bin\Debug\net6.0\ReadFile.exe
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\bin\Debug\net6.0\ReadFile.deps.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\bin\Debug\net6.0\ReadFile.runtimeconfig.json
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\bin\Debug\net6.0\ReadFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\bin\Debug\net6.0\ReadFile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\refint\ReadFile.dll
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.pdb
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ReadFile.genruntimeconfig.cache
+C:\Users\suresh.pranadarth\source\repos\IVYtraining\C#\19_10\ReadFile\ReadFile\obj\Debug\net6.0\ref\ReadFile.dll
