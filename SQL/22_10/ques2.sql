@@ -60,4 +60,9 @@ select * from Marks
 
 select course_id, max(mark) as Highest_Marks
 from Marks 
-group by course_id
+select a.name, b.course_name, c.mark from students a,courses b, Marks c where a.student_id = c.student_id 
+and b.course_id = c.course_id and c.mark > 70
+
+SELECT * FROM Marks  WHERE mark = any (SELECT MAX(mark) FROM Marks GROUP BY course_id) order by course_id
+
+update Marks set mark = 89 where student_id=2 and course_id=5
