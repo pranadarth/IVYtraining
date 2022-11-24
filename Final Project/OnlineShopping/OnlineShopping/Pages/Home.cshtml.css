@@ -1,0 +1,274 @@
+﻿
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    
+    background: url(https://img.freepik.com/free-vector/pattern-about-shopping_1061-495.jpg?w=740&t=st=1669024541~exp=1669025141~hmac=1a28f8be1547eb7fa13bd109c61660379c45954c149d131653575227d8ef0ee7);
+    color: black;
+    
+}
+
+.imgcontainer {
+    padding: 6.25%;
+}
+
+img {
+    width: 32%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px 15px grey;
+}
+
+    /* Increase the font size of the heading */
+    .header h1 {
+        font-size: 40px;
+    }
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+    overflow: hidden;
+    background: linear-gradient(to left,black,#100930);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+    /* Style the navigation bar links */
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        border-radius: 25px;
+        padding: 14px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+            .navbar a.right:hover {
+                background: linear-gradient(to left,#a34059,#801212);
+                border-radius: 25px;
+            }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: grey;
+            color: black;
+            border-radius: 25px;
+        }
+
+        /* Active/current link */
+        .navbar a:focus {
+            background: linear-gradient(#666,#323333);
+            color: white;
+            border-radius: 25px;
+        }
+
+        
+
+
+/* Main column */
+.main {
+    flex-grow: 1;
+    background: url(https://wallpaperaccess.com/full/1092758.jpg);
+    background-size: 100%;
+    color: aliceblue;
+}
+h3 {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+h4
+{
+    font-size: 26px;
+    font-weight:600;
+    text-align:center;
+}
+h5 {
+    font-size: 18px;
+}
+.items {
+    flex-basis: 30%;
+    padding: 10px;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 5px 5px 20px 15px black;
+    color: black;
+}
+
+.item-row {
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.items:hover
+{
+    transform: translateY(-7px);
+}
+
+.cart {
+    background: linear-gradient(to left, #50068a,black);
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 0px black;
+}
+.cart:hover
+{
+    background:black;
+    opacity:0.9;
+}
+
+
+.alert {
+    margin-bottom: 0px;
+}
+
+.footerpg {
+    display: flex;
+    background: #333;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 45vh;
+}
+    .footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+    .social-icon__link:hover {
+        transform: translateY(-10px);
+    }
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+    .menu__link:hover {
+        opacity: 1;
+    }
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+}
+
+    .wave#wave1 {
+        z-index: 1000;
+        opacity: 1;
+        bottom: 0;
+        animation: animateWaves 4s linear infinite;
+    }
+
+    .wave#wave2 {
+        z-index: 999;
+        opacity: 0.5;
+        bottom: 10px;
+        animation: animate 4s linear infinite !important;
+    }
+
+    .wave#wave3 {
+        z-index: 1000;
+        opacity: 0.2;
+        bottom: 15px;
+        animation: animateWaves 3s linear infinite;
+    }
+
+    .wave#wave4 {
+        z-index: 999;
+        opacity: 0.7;
+        bottom: 20px;
+        animation: animate 3s linear infinite;
+    }
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-position-x: 0px;
+    }
+}

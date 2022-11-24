@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Asp_practice_empty_template/1.0.0": {
+        "runtime": {
+          "Asp_practice_empty_template.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Asp_practice_empty_template/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

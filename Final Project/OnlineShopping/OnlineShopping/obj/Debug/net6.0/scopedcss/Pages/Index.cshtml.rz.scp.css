@@ -1,0 +1,100 @@
+body[b-tvrq8il35r]{
+
+}
+
+div[name=text1][b-tvrq8il35r]{
+    color: whitesmoke;
+    font-style: italic; 
+}
+
+
+.LoginPage[b-tvrq8il35r] {
+    background: url(https://t4.ftcdn.net/jpg/01/70/93/27/240_F_170932733_VOHGeaH5AjrVCXBVryEwVgwhArv2wNNH.jpg);
+    background-size: 100%;
+    
+}
+
+.alert[b-tvrq8il35r] {
+    margin-bottom: 0%;
+    border-block: none;
+    color: orangered;
+}
+
+
+/* Full-width inputs */
+input[type=email][b-tvrq8il35r], input[type=password][b-tvrq8il35r] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: large;
+    border-radius: 15px;
+    
+}
+
+/* Set a style for Login button */
+button[name="Login"][b-tvrq8il35r] {
+    background: linear-gradient( #50068a,#e109e8);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25px;
+}
+
+button[name="Register"][b-tvrq8il35r] {
+    background: linear-gradient(#a61cb0,#50068a);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 70px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25px;
+}
+    /* Add a hover effect for buttons */
+    button:hover[b-tvrq8il35r] {
+        opacity: 0.8;
+    }
+
+
+
+/* Center the avatar image inside this container */
+.imgcontainer[b-tvrq8il35r] {
+    height: auto;
+    width: 500px;
+    margin-left: 515px;
+    padding: 20px;
+  
+}
+
+/* Avatar image */
+img.avatar[b-tvrq8il35r] {
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 50px 10px grey;
+}
+
+/* Add padding to containers */
+.container[b-tvrq8il35r] {
+    padding: 16px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width:auto;
+    height:auto;
+    margin-top:2%;
+   
+}
+
+
+
+

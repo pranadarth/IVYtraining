@@ -1,0 +1,148 @@
+﻿/* (A) GLOBAL */
+* {
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.all {
+    display: flex;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* (B) SIDEBAR */
+/* (B1) SIDEBAR ITSELF */
+#pgside {
+    width: 200px;
+    transition: width 0.2s;
+    background: linear-gradient(#283039,black)
+}
+
+
+    #pgside #pguser {
+        display: flex;
+        align-items: center;
+        padding: 10px 5px;
+    }
+
+        img {
+            width: 50px;
+            margin-right: 5px;
+            border-radius: 50%
+        }
+
+    /* (B3) SIDEBAR ITEMS */
+    #pgside, #pgside a {
+        color: #fff;
+        
+    }
+
+        #pgside a {
+            display: block;
+            padding: 20px;
+            width: 100%;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 15%;
+        }
+
+            #pgside a:current {
+                background: blue;
+            }
+
+            #pgside a:hover {
+                background: grey;
+            }
+
+.Logout {
+    margin-top: 50%;
+    background: #8c0a24;
+    
+}
+.sidebar {
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #9f62d1;
+}
+
+        /* (B4) SIDEBAR ICONS & TEXT */
+        #pgside i.ico, #pgside i.txt {
+            font-style: normal;
+        }
+
+        #pgside i.ico {
+            font-size: 1.1em;
+            margin-right: 10px;
+        }
+
+/* (B5) SMALL SCREEN TRANSFORMATION */
+@media screen and (max-width:768px) {
+    #pgside {
+        width: 70px;
+    }
+
+        #pgside #pguser {
+            justify-content: center;
+        }
+
+        #pgside a {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        #pgside i.ico {
+            font-size: 1.5em;
+            margin-right: 0;
+        }
+
+        #pgside i.txt {
+            display: none;
+        }
+}
+
+/* (C) MAIN CONTENTS */
+#pgmain {
+    flex-grow: 1;
+    padding: 20px;
+    background: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-size: 100%;
+    color: aliceblue;
+    
+}
+
+.data {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    border-radius: 15px;
+    background: linear-gradient(to right,#180f75,#6610f2);
+    box-shadow: 5px 5px 20px 15px black;
+    color: black;
+}
+
+.data-row {
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.data:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+    
+
+h3{
+    padding-left: 5%;
+}
+p {
+    text-align: center;
+    color: gray;
+    /*color: #202029;*/
+}

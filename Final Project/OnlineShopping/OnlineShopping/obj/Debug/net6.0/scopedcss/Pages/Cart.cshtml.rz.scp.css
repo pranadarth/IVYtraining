@@ -1,0 +1,271 @@
+body[b-hcmuhl8m52] {
+}
+
+.navbar[b-hcmuhl8m52] {
+    overflow: hidden;
+    background: linear-gradient(to left,black,#100930);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+    /* Style the navigation bar links */
+    .navbar a[b-hcmuhl8m52] {
+        float: left;
+        display: block;
+        color: white;
+        border-radius: 25px;
+        padding: 14px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+
+        /* Right-aligned link */
+        .navbar a.right[b-hcmuhl8m52] {
+            float: right;
+        }
+
+            .navbar a.right:hover[b-hcmuhl8m52] {
+                background: linear-gradient(to left,#a34059,#801212);
+                border-radius: 25px;
+            }
+
+        /* Change color on hover */
+        .navbar a:hover[b-hcmuhl8m52] {
+            background-color: grey;
+            color: black;
+            border-radius: 25px;
+        }
+
+        /* Active/current link */
+        .navbar a:focus[b-hcmuhl8m52] {
+            background: linear-gradient(#666,#323333);
+            color: white;
+            border-radius: 25px;
+        }
+
+
+
+
+/* Main column */
+.main[b-hcmuhl8m52] {
+    flex-grow: 1;
+    background: url(https://wallpaperaccess.com/full/1092758.jpg);
+    background-size: 100%;
+    color: aliceblue;
+    padding-top: 2%;
+    padding-left:2%;
+}
+
+h3[b-hcmuhl8m52] {
+    
+}
+
+.body[b-hcmuhl8m52] {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.CartContainer[b-hcmuhl8m52] {
+    margin-top: 3%;
+    width: 70%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 5px 10px 25px 20px black;
+    justify-content: space-between;
+}
+
+.Header[b-hcmuhl8m52] {
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Heading[b-hcmuhl8m52] {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #2F3841;
+}
+
+.Action[b-hcmuhl8m52] {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
+
+.Cart-Items[b-hcmuhl8m52] {
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.about[b-hcmuhl8m52] {
+    height: 100%;
+    width: auto;
+}
+
+.title[b-hcmuhl8m52] {
+    padding-top: 10px;
+    margin-left: 15px;
+    line-height: 10px;
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #202020;
+    
+}
+
+.subtitle[b-hcmuhl8m52] {
+    padding-top: 10px;
+    line-height: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #484a4a;
+}
+
+.counter[b-hcmuhl8m52] {
+    padding-top: 10px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn[b-hcmuhl8m52] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+}
+
+.count[b-hcmuhl8m52] {
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #202020;
+}
+
+.prices[b-hcmuhl8m52] {
+    padding-top: 10px;
+    height: 100%;
+    text-align: right;
+}
+
+.amount[b-hcmuhl8m52] {
+    padding-top: 20px;
+    font-size: 21px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #202020;
+}
+
+.save[b-hcmuhl8m52] {
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #1687d9;
+    cursor: pointer;
+}
+
+.remove[b-hcmuhl8m52] {
+    padding-top: 1px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+}
+
+.pad[b-hcmuhl8m52] {
+    margin-top: 5px;
+}
+
+hr[b-hcmuhl8m52] {
+    width: 76%;
+    float: right;
+    margin-right: 5%;
+    background: black;
+}
+
+.checkout[b-hcmuhl8m52] {
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    width: 28%;
+}
+
+.total[b-hcmuhl8m52] {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subtotal[b-hcmuhl8m52] {
+    font-size: 22px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #202020;
+}
+
+.items[b-hcmuhl8m52] {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #484a4a;
+    line-height: 10px;
+    text-align: center;
+}
+
+.total-amount[b-hcmuhl8m52] {
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    color: #202020;
+}
+
+.button[b-hcmuhl8m52] {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #67a8a8, #285163);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #202020;
+}
+
+.button:hover[b-hcmuhl8m52]
+{
+    transform: scale(1.075);
+}

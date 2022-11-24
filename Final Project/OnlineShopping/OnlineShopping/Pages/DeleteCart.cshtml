@@ -1,0 +1,85 @@
+﻿@page
+@model OnlineShopping.Pages.DeleteCartModel
+@using System.Data.SqlClient
+@{
+    try
+    {
+        string p_name = Request.Query["name"];
+        string c_email = Request.Query["E_id"];
+        int count = Convert.ToInt32(Request.Query["count"]);
+        Console.WriteLine("Deleting " + p_name + " from Cart on account :" + c_email);
+
+        string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+        SqlConnection sqlCon = new SqlConnection(ConnectionString);
+        sqlCon.Open();
+
+        string stockQuery = "select prod_count,sale_count,price,meta_data1 from products where prod_name = @p_name";
+
+
+        SqlCommand cmd1 = new SqlCommand(stockQuery, sqlCon);
+
+        cmd1.Parameters.Add("@p_name", System.Data.SqlDbType.NVarChar).Value = p_name;
+
+
+        SqlDataReader reader = cmd1.ExecuteReader();
+
+        reader.Read();
+        int stock = reader.GetInt32(0);
+        int sale = reader.GetInt32(1);
+        int price = reader.GetInt32(2);
+        string meta = reader.GetString(3);
+
+        sqlCon.Close();
+        sqlCon.Open();
+
+        Console.WriteLine("Current Stock: " + stock);
+        
+      
+            stock += count;
+            sale -= count;
+            SqlCommand cmd2 = new SqlCommand("updateStock", sqlCon);
+            cmd2.CommandType = System.Data.CommandType.StoredProcedure;
+
+            cmd2.Parameters.Add("@p_name", System.Data.SqlDbType.NVarChar).Value = p_name;
+            cmd2.Parameters.Add("@stock", System.Data.SqlDbType.Int).Value = stock;
+            cmd2.Parameters.Add("@sale", System.Data.SqlDbType.Int).Value = sale;
+
+            cmd2.CommandType = System.Data.CommandType.StoredProcedure;
+            cmd2.ExecuteNonQuery();
+            Console.WriteLine("Updated the cart Successfully!");
+       
+        sqlCon.Close();
+        sqlCon.Open();
+
+        SqlCommand cmd = new SqlCommand("deleteCart", sqlCon);
+        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+        cmd.Parameters.Add("@p_name", System.Data.SqlDbType.NVarChar).Value = p_name;
+        cmd.Parameters.Add("@c_email", System.Data.SqlDbType.NVarChar).Value = c_email;
+        cmd.ExecuteNonQuery();
+
+        sqlCon.Close();
+        Response.Redirect("/Cart?E_id="+c_email);
+    }
+    catch (SqlException ex)
+    {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("Sql Related Issue");
+        <div class="alert alert-danger alert-dismissible">
+            @ex.Message
+           <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+    catch (Exception exp)
+    {
+        Console.WriteLine(exp.Message);
+        Console.WriteLine("C# related Issue");
+        <div class="alert alert-danger alert-dismissible">
+            @exp.Message
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    
+
+}

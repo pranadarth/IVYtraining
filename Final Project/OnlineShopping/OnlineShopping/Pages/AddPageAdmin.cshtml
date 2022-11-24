@@ -1,0 +1,102 @@
+﻿@page
+@model OnlineShopping.Pages.AddPageAdminModel
+
+@{
+    ViewData["Title"] = "Add Items";
+}
+
+<div class="all">
+    <!-- (A) SIDEBAR -->
+    <div id="pgside">
+        <!-- LINK TO DASHBOARD OR LOGOUT -->
+        <div id="pguser">
+            <img src="Images/potato.png" />
+            <i class="txt">Hello, Admin</i>
+        </div>
+        <hr style="background:#bd97db" />
+        <!-- (A2) MENU ITEMS -->
+        <a href="Admin" >
+            <i class="ico">&#9733;</i>
+            <i class="txt">Info</i>
+        </a>
+        <hr class="sidebar" />
+
+        <a href="/ViewProdAdmin">
+            <i class="ico">&#9728;</i>
+            <i class="txt">Product Details</i>
+        </a>
+        <hr class="sidebar" />
+        <a href="#">
+            <i class="ico">&#9737;</i>
+            <i class="txt">Add Products</i>
+        </a>
+
+        <a href="/index" class="Logout">
+            <i class="ico">&#9737;</i>
+            <i class="txt">Logout</i>
+        </a>
+    </div>
+
+    <!-- (B) MAIN -->
+    <main id="pgmain">
+        
+
+        @if (Model.success_msg.Length > 0)
+        {
+            
+                    <div class="alert alert-success alert-dismissible">
+                        @Model.success_msg
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                
+        }
+        @if (Model.error_msg.Length > 0)
+        {
+           
+                    <div class="alert alert-danger alert-dismissible">
+                        @Model.error_msg
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                
+        }
+        <form method="post">
+
+            <div class="row-cols-1">
+                <h>Add New Products </h>
+                <br>
+                <div>
+                    <input type="text" class=" form-control" name="name" placeholder="Product Name" value="" required>
+                </div>
+                
+                <div>
+                    <input type="number" class=" form-control" placeholder="Price" name="amount" value="" required>
+                </div>
+                
+                <div>
+                    <input type="text" class=" form-control" placeholder="category" name="cat" value="" required>
+                </div>
+                
+                <div>
+                    <input type="number" class=" form-control" placeholder="No. of  stock" name="count" value="" required>
+                </div>
+                
+                <div>
+                    <input type="text" class=" form-control" placeholder="Specifications" name="meta1" value="" required>
+                </div>
+                
+                <div>
+                    <input type="text" class=" form-control" placeholder="Meta data" name="meta2" value="" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="reset" class="btn btn-primary">Reset</button>
+                    <a href="/Admin" type="reset" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+        </form>
+
+    </main>
+</div>
+

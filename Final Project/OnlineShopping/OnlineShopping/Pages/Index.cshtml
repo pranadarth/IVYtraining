@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Login page";
+}
+@if(Model.error.Length > 0)
+{
+     <div class="alert alert-danger alert-dismissible" style="height:fit-content">
+                @Model.error
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+
+}
+
+
+ <div class="LoginPage">
+        <br />
+        <div class="imgcontainer">
+            <img src="Images\ShoppingLogo.png" alt="Logo" class="avatar">
+            <br />
+        </div>
+   <div name="text1" class="text-center">
+            
+    <h3 >Welcome Back!</h3>
+    
+  </div>
+ <form  method="post">
+    
+
+    <div class="container">
+        @*<label for="uname"><b>Username:</b></label>*@
+            <input type="email" class="form-control" placeholder="Enter Email Id" name="uname" required>
+        <br />
+        @*<label for="psw"><b>Password:</b></label>*@
+            <input type="password" class=" form-control" placeholder="Enter Password" name="psw" required>
+        <br /><br />
+            <button name="Login" type="submit" class="btn btn-success">Login</button>
+        <button onclick="location.href='/RegisterPage'" name="Register" type="submit">Sign Up</button>
+    </div>
+        
+
+ </form>
+        <br/>
+</div>
+
+

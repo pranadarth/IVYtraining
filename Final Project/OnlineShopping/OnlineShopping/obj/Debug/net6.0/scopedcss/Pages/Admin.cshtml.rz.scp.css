@@ -1,0 +1,148 @@
+/* (A) GLOBAL */
+*[b-6ogbir8twi] {
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.all[b-6ogbir8twi] {
+    display: flex;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* (B) SIDEBAR */
+/* (B1) SIDEBAR ITSELF */
+#pgside[b-6ogbir8twi] {
+    width: 200px;
+    transition: width 0.2s;
+    background: linear-gradient(#283039,black)
+}
+
+
+    #pgside #pguser[b-6ogbir8twi] {
+        display: flex;
+        align-items: center;
+        padding: 10px 5px;
+    }
+
+        img[b-6ogbir8twi] {
+            width: 50px;
+            margin-right: 5px;
+            border-radius: 50%
+        }
+
+    /* (B3) SIDEBAR ITEMS */
+    #pgside[b-6ogbir8twi], #pgside a[b-6ogbir8twi] {
+        color: #fff;
+        
+    }
+
+        #pgside a[b-6ogbir8twi] {
+            display: block;
+            padding: 20px;
+            width: 100%;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 15%;
+        }
+
+            #pgside a:current[b-6ogbir8twi] {
+                background: blue;
+            }
+
+            #pgside a:hover[b-6ogbir8twi] {
+                background: grey;
+            }
+
+.Logout[b-6ogbir8twi] {
+    margin-top: 50%;
+    background: #8c0a24;
+    
+}
+.sidebar[b-6ogbir8twi] {
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #9f62d1;
+}
+
+        /* (B4) SIDEBAR ICONS & TEXT */
+        #pgside i.ico[b-6ogbir8twi], #pgside i.txt[b-6ogbir8twi] {
+            font-style: normal;
+        }
+
+        #pgside i.ico[b-6ogbir8twi] {
+            font-size: 1.1em;
+            margin-right: 10px;
+        }
+
+/* (B5) SMALL SCREEN TRANSFORMATION */
+@media screen and (max-width:768px) {
+    #pgside[b-6ogbir8twi] {
+        width: 70px;
+    }
+
+        #pgside #pguser[b-6ogbir8twi] {
+            justify-content: center;
+        }
+
+        #pgside a[b-6ogbir8twi] {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        #pgside i.ico[b-6ogbir8twi] {
+            font-size: 1.5em;
+            margin-right: 0;
+        }
+
+        #pgside i.txt[b-6ogbir8twi] {
+            display: none;
+        }
+}
+
+/* (C) MAIN CONTENTS */
+#pgmain[b-6ogbir8twi] {
+    flex-grow: 1;
+    padding: 20px;
+    background: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-size: 100%;
+    color: aliceblue;
+    
+}
+
+.data[b-6ogbir8twi] {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    border-radius: 15px;
+    background: linear-gradient(to right,#180f75,#6610f2);
+    box-shadow: 5px 5px 20px 15px black;
+    color: black;
+}
+
+.data-row[b-6ogbir8twi] {
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.data:hover[b-6ogbir8twi]{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+    
+
+h3[b-6ogbir8twi]{
+    padding-left: 5%;
+}
+p[b-6ogbir8twi] {
+    text-align: center;
+    color: gray;
+    /*color: #202029;*/
+}

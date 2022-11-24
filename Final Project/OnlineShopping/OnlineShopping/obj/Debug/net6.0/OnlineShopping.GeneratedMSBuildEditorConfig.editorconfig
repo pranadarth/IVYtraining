@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnlineShopping
+build_property.RootNamespace = OnlineShopping
+build_property.ProjectDir = C:\Users\suresh.pranadarth\source\repos\IVYtraining\Final Project\OnlineShopping\OnlineShopping\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\suresh.pranadarth\source\repos\IVYtraining\Final Project\OnlineShopping\OnlineShopping
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/AddCartPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ2FydFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/DeleteCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/DeleteProdAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlUHJvZEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/AddPageAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUGFnZUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-8swd2ss317
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6ogbir8twi
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-hcmuhl8m52
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/EditProdAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFByb2RBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-3uvw9ndxj9
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-vgpn9qrp6t
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tvrq8il35r
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/ProfileMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZU1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4htell8uz9
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/RegisterPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-q1dkmlfcyf
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-esig04d97l
+
+[C:/Users/suresh.pranadarth/source/repos/IVYtraining/Final Project/OnlineShopping/OnlineShopping/Pages/ViewProdAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Byb2RBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-a5g864koy8
