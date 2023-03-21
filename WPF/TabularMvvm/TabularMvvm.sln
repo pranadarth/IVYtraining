@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabularMvvm", "TabularMvvm\TabularMvvm.csproj", "{DE4B37E0-55A1-441D-8AD5-DE2A8496BF8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4B37E0-55A1-441D-8AD5-DE2A8496BF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4B37E0-55A1-441D-8AD5-DE2A8496BF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4B37E0-55A1-441D-8AD5-DE2A8496BF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4B37E0-55A1-441D-8AD5-DE2A8496BF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28260992-E7E5-4925-BE22-A9799382D034}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,82 @@
+﻿body {
+}
+
+.all {
+    background: url(https://t4.ftcdn.net/jpg/01/70/93/27/240_F_170932733_VOHGeaH5AjrVCXBVryEwVgwhArv2wNNH.jpg);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 75%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 0px grey;
+}
+
+
+
+
+
+
+ .field {
+        text-align: center;
+    }
+.head {
+    
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+.clearfix {
+
+    text-align: center;
+
+}
+.alert {
+    margin-bottom: 0%;
+    border-block: none;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    border: solid black;
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px 15px grey;
+    text-align: center;
+    background: #e8e6e6;
+}
+
+
+

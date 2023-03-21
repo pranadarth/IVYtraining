@@ -1,0 +1,25 @@
+﻿@page
+@model Asp_Practice.Pages.salesModel
+@{
+    <h1>Welcome To Sale Information</h1>
+    <p> This is our Sales Page of low performer</p>
+    <table>
+         <thead>
+          <tr> 
+                <th>Sales Person &nbsp; </th>
+                <th> Amount Done &nbsp;</th>
+                <th> City &nbsp;</th>
+          </tr>
+         </thead>
+         <tbody>
+          @foreach(var data in Model.List_sales)
+          {
+          <tr>
+            <td>@data.name</td>
+            <td>@data.amount</td>
+            <td>@data.city</td>
+          </tr>
+          }
+         </tbody>
+    </table>
+}

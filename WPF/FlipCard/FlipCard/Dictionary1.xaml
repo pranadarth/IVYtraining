@@ -1,0 +1,52 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Geometry x:Key="_2_of_clubsGeometry1">F1 M167.0869141,242.6669922z M0,0z M166.8369141,235.5478516C166.8369141,239.3251954,163.75,242.4169922,159.9658203,242.4169922L7.1108398,242.4169922C3.3359375,242.4169922,0.25,239.3251953,0.25,235.5478516L0.25,7.1201172C0.25,3.3427734,3.3359375,0.25,7.1108398,0.25L159.9658203,0.25C163.75,0.25,166.8369141,3.3427734,166.8369141,7.1201172L166.8369141,235.5478516z</Geometry>
+    <Geometry x:Key="_2_of_clubsGeometry2">F1 M167.0869141,242.6669922z M0,0z M50.291466,22.698228C50.291466,22.698228 52.666466,20.798228 52.666466,18.164228 52.666466,16.622228 51.297466,14.062228 48.132466,14.062228 44.967466,14.062228 43.598466,16.623228 43.598466,18.164228 43.598466,20.798228 45.973466,22.698228 45.973466,22.698228 43.335466,20.643228 38.632466,22.046228 38.632466,26.153228 38.632466,28.209228 40.312466,30.471228 42.950466,30.471228 46.115466,30.471228 47.484466,27.016228 47.484466,27.016228 47.484466,27.016228 47.886466,30.954228 45.541466,33.062228L50.723466,33.062228C48.378466,30.955228 48.780466,27.016228 48.780466,27.016228 48.780466,27.016228 50.149466,30.471228 53.314466,30.471228 55.953466,30.471228 57.632466,28.208228 57.632466,26.153228 57.632466,22.046228 52.929466,20.643228 50.291466,22.698228z</Geometry>
+    <Geometry x:Key="_2_of_clubsGeometry3">F1 M167.0869141,242.6669922z M0,0z M50.291466,22.698228C50.291466,22.698228 52.666466,20.798228 52.666466,18.164228 52.666466,16.622228 51.297466,14.062228 48.132466,14.062228 44.967466,14.062228 43.598466,16.623228 43.598466,18.164228 43.598466,20.798228 45.973466,22.698228 45.973466,22.698228 43.335466,20.643228 38.632466,22.046228 38.632466,26.153228 38.632466,28.209228 40.312466,30.471228 42.950466,30.471228 46.115466,30.471228 47.484466,27.016228 47.484466,27.016228 47.484466,27.016228 47.886466,30.954228 45.541466,33.062228L50.723466,33.062228C48.378466,30.955228 48.780466,27.016228 48.780466,27.016228 48.780466,27.016228 50.149466,30.471228 53.314466,30.471228 55.953466,30.471228 57.632466,28.208228 57.632466,26.153228 57.632466,22.046228 52.929466,20.643228 50.291466,22.698228z</Geometry>
+    <Geometry x:Key="_2_of_clubsGeometry4">F1 M167.0869141,242.6669922z M0,0z M50.291466,22.698228C50.291466,22.698228 52.666466,20.798228 52.666466,18.164228 52.666466,16.622228 51.297466,14.062228 48.132466,14.062228 44.967466,14.062228 43.598466,16.623228 43.598466,18.164228 43.598466,20.798228 45.973466,22.698228 45.973466,22.698228 43.335466,20.643228 38.632466,22.046228 38.632466,26.153228 38.632466,28.209228 40.312466,30.471228 42.950466,30.471228 46.115466,30.471228 47.484466,27.016228 47.484466,27.016228 47.484466,27.016228 47.886466,30.954228 45.541466,33.062228L50.723466,33.062228C48.378466,30.955228 48.780466,27.016228 48.780466,27.016228 48.780466,27.016228 50.149466,30.471228 53.314466,30.471228 55.953466,30.471228 57.632466,28.208228 57.632466,26.153228 57.632466,22.046228 52.929466,20.643228 50.291466,22.698228z</Geometry>
+    <Geometry x:Key="_2_of_clubsGeometry5">F1 M167.0869141,242.6669922z M0,0z M50.291466,22.698228C50.291466,22.698228 52.666466,20.798228 52.666466,18.164228 52.666466,16.622228 51.297466,14.062228 48.132466,14.062228 44.967466,14.062228 43.598466,16.623228 43.598466,18.164228 43.598466,20.798228 45.973466,22.698228 45.973466,22.698228 43.335466,20.643228 38.632466,22.046228 38.632466,26.153228 38.632466,28.209228 40.312466,30.471228 42.950466,30.471228 46.115466,30.471228 47.484466,27.016228 47.484466,27.016228 47.484466,27.016228 47.886466,30.954228 45.541466,33.062228L50.723466,33.062228C48.378466,30.955228 48.780466,27.016228 48.780466,27.016228 48.780466,27.016228 50.149466,30.471228 53.314466,30.471228 55.953466,30.471228 57.632466,28.208228 57.632466,26.153228 57.632466,22.046228 52.929466,20.643228 50.291466,22.698228z</Geometry>
+    <DrawingGroup x:Key="_2_of_clubsDrawingGroup" ClipGeometry="M0,0 V242.6669922 H167.0869141 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource _2_of_clubsGeometry1}">
+                <GeometryDrawing.Pen>
+                    <Pen Brush="#FF000000" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingGroup>
+        <DrawingGroup>
+            <GlyphRunDrawing ForegroundBrush="#FF000000">
+                <GlyphRunDrawing.GlyphRun>
+                    <GlyphRun PixelsPerDip="1.5" BaselineOrigin="8.3105459,27.548409" FontRenderingEmSize="32" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="2" GlyphIndices="21" AdvanceWidths="17.792" GlyphOffsets="0,0" Language="en-us">
+                        <GlyphRun.GlyphTypeface>
+                            <GlyphTypeface FontUri="C:\WINDOWS\FONTS\ARIAL.TTF" StyleSimulations="None" />
+                        </GlyphRun.GlyphTypeface>
+                    </GlyphRun>
+                </GlyphRunDrawing.GlyphRun>
+            </GlyphRunDrawing>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="1.4856506,0,0,1.4856506,-54.024661,10.018072">
+            <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource _2_of_clubsGeometry2}" />
+        </DrawingGroup>
+        <DrawingGroup Transform="-1,0,0,-1,0,0">
+            <GlyphRunDrawing ForegroundBrush="#FF000000">
+                <GlyphRunDrawing.GlyphRun>
+                    <GlyphRun PixelsPerDip="1.5" BaselineOrigin="-158.86395,-214.4666" FontRenderingEmSize="32" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="2" GlyphIndices="21" AdvanceWidths="17.792" GlyphOffsets="0,0" Language="en-us">
+                        <GlyphRun.GlyphTypeface>
+                            <GlyphTypeface FontUri="C:\WINDOWS\FONTS\ARIAL.TTF" StyleSimulations="None" />
+                        </GlyphRun.GlyphTypeface>
+                    </GlyphRun>
+                </GlyphRunDrawing.GlyphRun>
+            </GlyphRunDrawing>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="-1.4856506,0,0,-1.4856506,221.19916,232.46182">
+            <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource _2_of_clubsGeometry3}" />
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="2.5125778,0,0,2.5125778,-36.788386,-1.5311156">
+            <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource _2_of_clubsGeometry4}" />
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="-2.5125778,0,0,-2.5125778,205.12954,245.27515">
+            <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource _2_of_clubsGeometry5}" />
+        </DrawingGroup>
+    </DrawingGroup>
+   <DrawingImage x:Key="_2_of_clubsDrawingImage" Drawing="{StaticResource _2_of_clubsDrawingGroup}" />
+</ResourceDictionary>

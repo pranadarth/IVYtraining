@@ -1,0 +1,127 @@
+﻿<Window x:Class="TabularMvvm.View.OfficeData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TabularMvvm.View" 
+        xmlns:viewmodel="clr-namespace:TabularMvvm.ViewModel"
+        mc:Ignorable="d"
+        Title="OfficeData" Height="450" Width="800">
+    <!--xmlns:local="clr-namespace:TabularMvvm.ViewModel"-->
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+
+            <GradientStop Color="#c0a1d6" Offset="0.3" />
+            <GradientStop Color="#6997d6" Offset="1" />
+
+        </LinearGradientBrush>
+    </Window.Background>
+    <Window.DataContext>
+        <viewmodel:EmployeeViewModel/>
+    </Window.DataContext>
+    <Viewbox>
+        <Grid Height="450" Width="800" >
+            <Grid x:Name="MainContent">
+                <Grid.Effect>
+                    <BlurEffect Radius="{Binding BlurValue}"/>
+                </Grid.Effect>
+                <DataGrid AutoGenerateColumns="False" Height="285" Width="580" HorizontalAlignment="Center"  Name="dataG" VerticalAlignment="Center"  ColumnWidth="110" RowHeight="50"
+                  GridLinesVisibility="None" RowBackground="LightBlue" AlternatingRowBackground="AliceBlue" BorderThickness="3" BorderBrush="Gray" HorizontalScrollBarVisibility="Disabled"
+                  SelectionMode="Single" ItemsSource="{Binding eData}"  CanUserAddRows="false" FontSize="14" FontWeight="Medium" HorizontalContentAlignment="Center" >
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Employee Id" Binding="{Binding Id }" >
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Name"  Binding="{Binding Name}">
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Role"  Binding="{Binding Role}" >
+                            <DataGridTextColumn.ElementStyle>
+                                <Style>
+                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+                        <DataGridTemplateColumn Header="Edit">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Name="Edit" Content="Edit" Height="35" Width="80" BorderBrush="black" BorderThickness="1.5" 
+                                        Background="#77ad61"  FontFamily="Comic Sans MS" HorizontalAlignment="Left" 
+                                        Command="{Binding DataContext.EditBtn, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" CommandParameter="{Binding}">
+                                        <Button.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="8,8,8,8" />
+                                            </Style>
+                                        </Button.Resources>
+                                    </Button>
+
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Delete">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Name="Delete" Content="Delete"  Height="35" Width="80" BorderBrush="black" BorderThickness="1.5" 
+                                    FontFamily="Comic Sans MS" Background="#d16f6f" FontWeight="Medium" HorizontalAlignment="Left"
+                                            Command="{Binding DataContext.DeleteBtn, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" CommandParameter="{Binding}" >
+                                        <Button.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="8,8,8,8" />
+                                            </Style>
+                                        </Button.Resources>
+                                    </Button>
+
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+
+                </DataGrid>
+                <Button  Height="40" Width="80"  HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="3" BorderBrush="DarkSlateBlue"
+                      Content="Refresh" FontSize="16" FontWeight="Heavy" Margin="10,10,0,0" Background="SkyBlue" Command="{Binding ResetBtn}">
+
+                </Button>
+            </Grid>
+
+
+            <Border  x:Name="EditPg" Height="150" Width="200" Background="MediumPurple" Visibility="{Binding EditPgVisible}" 
+                     BorderBrush="Purple" BorderThickness="4" CornerRadius="15,5,15,5">
+
+                <Canvas  >
+                    <Canvas.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="BorderBrush" Value="Black" />
+                        </Style>
+                        <Style TargetType="Label">
+                            <Setter Property="FontSize" Value="14"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                        <Style TargetType="TextBox">
+                            <Setter Property="FontSize" Value="14"/>
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Style>
+                    </Canvas.Resources>
+                    <Label Content="Employee Id:" Canvas.Top="0" />
+                    <Label Content="Name:" Canvas.Top="30"/>
+                    <Label Content="Role:" Canvas.Top="60"/>
+
+                    <TextBox Name="EditId" Text="{Binding Selected.Id}" Canvas.Left="100" Canvas.Top="5"  Width="90" TextWrapping="Wrap"  IsReadOnly="True"/>
+                    <TextBox Name="EditName" Text="{Binding Selected.Name}" Canvas.Left="100" Canvas.Top="35"  Width="90" TextWrapping="Wrap"     />
+                    <TextBox Name="EditDesign" Text="{Binding Selected.Role}" Canvas.Left="100" Canvas.Top="65" Width="90" TextWrapping="Wrap" Focusable="True">
+                    </TextBox>
+
+                    <Button Content="OK"  Height="20" Width="40" Canvas.Left="70" Canvas.Top="115" Background="LightBlue" 
+                        BorderThickness="1" BorderBrush="Black" FontFamily="15" FontWeight="Medium"
+                            Command="{Binding OkBtn}" >
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="8,8,8,8" />
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Canvas>
+            </Border>
+        </Grid>
+    </Viewbox>
+</Window>
+

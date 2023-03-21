@@ -1,0 +1,70 @@
+﻿@page
+@model OnlineShopping.Pages.ProfileMainModel
+@{
+    ViewData["Title"] = "My Profile";
+}
+<div class="navbar">
+        <a href="/Home?E_Id=@Model.update.c_email#prodpg"><i class="fas fa-home"></i>Home</a>
+        <a href="#">👤 Profile</a>
+        <a href="/Cart?E_Id=@Model.update.c_email">🛒 My cart</a>
+  <a href="/Index" class="right">Logout</a>
+</div>
+
+  <div class="main" id="prodpg">
+        <h3> My Profile </h3>
+    <div class="Details">
+        <br>
+
+        @if (Model.success_msg.Length > 0)
+        {
+            Thread.Sleep(1000);
+            <div class="alert alert-success alert-dismissible">
+                @Model.success_msg
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+            Thread.Sleep(1000);
+
+        }
+        @if (Model.error_msg.Length > 0)
+        {
+
+            <div class="alert alert-danger alert-dismissible">
+                @Model.error_msg
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+
+        }
+        <form method="post">
+
+            <div class="row-cols-1">
+                <h>Hi, @Model.update.c_name</h>
+                <br />
+                <br />
+                <label class="col-form-label"> Email ID: </label>
+                <div>
+                    <input style="background: #545db8;" type="text" class=" form-control" name="email" value="@Model.update.c_email" disabled>
+                </div>
+                <label class="col-form-label"> Phone Number:  </label>
+                <div>
+                    <input style="background: #545db8;" type="number" class=" form-control" name="phone" value="@Model.update.c_p_no" required>
+                </div>
+                <label  class="col-form-label"> Current Password:  </label>
+                <div>
+                    <input style="background: #545db8" type="text" class=" form-control" name="password" value="@Model.update.c_pass" disabled>
+                </div>
+                <label class="col-form-label"> Change Password:  </label>
+                <div>
+                    <input style="background: #545db8;" type="password" class="form-control" name="ChangePassword" value="" minlength="6">
+                </div>
+
+                <br>
+                <div class="buttons">
+                    <button type="submit" class="btn btn-success">Update</button>
+                    <button type="reset" class="btn btn-primary">Reset</button>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+  </div>
+

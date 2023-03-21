@@ -1,0 +1,100 @@
+﻿<Window x:Class="PokerGameTable.ControlWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokerGameTable"
+        mc:Ignorable="d"
+        Title="Pokers"  Icon="https://i.pinimg.com/474x/b8/4e/fa/b84efa16785fbc6dc96f45a6d678a720.jpg"
+         WindowStyle="None" AllowsTransparency="True"  WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <SolidColorBrush Opacity="0"/>
+    </Window.Background>
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="5" Width="500" Height="300"  CornerRadius="10,50,10,50"  >
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+
+                    <GradientStop Color="#03053b" Offset="0.0" />
+                    <GradientStop Color="#ab8d6d" Offset="1" />
+
+                </LinearGradientBrush>
+            </Border.Background>
+            <Canvas  >
+                <TextBlock Height="23" Width="134" Canvas.Left="78" Canvas.Top="72" Foreground="White" FontSize="19" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Top" Text="No of Players"></TextBlock>
+
+
+
+                <TextBox Text="{Binding ElementName=slider1 , Path=Value ,Mode=TwoWay ,  UpdateSourceTrigger=PropertyChanged ,  StringFormat=N2}" FontSize="20" Padding="30,0,0,0" Name="jyothi" Canvas.Top="118" Canvas.Left="276" Height="30" Width="90" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Purple"  >
+                </TextBox>
+                
+                <Button Content="-"  Canvas.Left="232" Canvas.Top="123" HorizontalAlignment="Left" VerticalAlignment="Center" Width="26" Click="Minus" >
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                
+                <Button Content="+"   Canvas.Left="386" Canvas.Top="123" HorizontalAlignment="Left" VerticalAlignment="Top" Width="24" Click="Plus">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                
+                <Slider x:Name="slider1" Minimum="1" Maximum="10" Height="29" Width="258" Canvas.Left="113" Canvas.Top="171" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="Hand" ></Slider>
+                <TextBlock Height="23" Width="28" Canvas.Left="68" Canvas.Top="196" Foreground="White" FontSize="19" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Text="$1" ></TextBlock>
+
+                <Button Content="Min"  Canvas.Left="68" Canvas.Top="171"  HorizontalAlignment="Left" VerticalAlignment="Center" Click="Min">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Content="Max"   Canvas.Left="388" Canvas.Top="171" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Max">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <TextBlock Height="25" Width="166" Canvas.Left="54" Canvas.Top="120" Foreground="White" FontSize="19" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center"   Text="Betting Amount"></TextBlock>
+                <TextBlock Height="29" Width="116" Canvas.Left="187" Canvas.Top="10" Foreground="White" FontSize="26" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Text="Welcome"></TextBlock>
+                <TextBlock Height="24" Width="44" Canvas.Left="379" Canvas.Top="196" Foreground="White" FontSize="19" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Center" Text="$10"></TextBlock>
+
+
+
+                <RadioButton Content="Two" Name="TwoCk" Foreground="Wheat" Canvas.Left="245" Canvas.Top="82"  HorizontalAlignment="Left" VerticalAlignment="Center" ></RadioButton>
+                <RadioButton Content="Four" Name="FourCk" Canvas.Left="355" Canvas.Top="82"   Foreground="Wheat" HorizontalAlignment="Center" VerticalAlignment="Top"></RadioButton>
+
+                <Button Height="40" Width="100" Content="Start" Canvas.Top="227" FontSize="20" FontWeight="Medium" Canvas.Left="195"  HorizontalAlignment="Left" VerticalAlignment="Top" Click="Start">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+
+                            <GradientStop Color="#c0a1d6" Offset="0.0" />
+                            <GradientStop Color="#6997d6" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button  Height="30" Canvas.Left="8" Canvas.Top="11"  HorizontalAlignment="Left" VerticalAlignment="Center" Click="Back">
+                    <Image Source="https://cdn-icons-png.flaticon.com/128/1/1981.png">
+                        
+                    </Image>
+                </Button>
+
+            </Canvas>
+        </Border>
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,61 @@
+﻿@page
+@model OnlineShopping.Pages.AdminModel
+@{
+    ViewData["Title"] = "Admin page";
+}
+
+<div class="all">
+    <!-- (A) SIDEBAR -->
+    <div id="pgside">
+        <!-- LINK TO DASHBOARD OR LOGOUT -->
+        <div id="pguser">
+            <img src="Images/potato.png" />
+            <i class="txt">Hello, Admin</i>
+        </div>
+        <hr style="background:#bd97db" />
+        <!-- (A2) MENU ITEMS -->
+        <a href="#" >
+            <i class="ico">&#9733;</i>
+            <i class="txt">Info</i>
+        </a>
+        <hr class="sidebar" />
+        
+        <a href="/ViewProdAdmin">
+            <i class="ico">&#9728;</i>
+            <i class="txt">Product Details</i>
+        </a>
+        <hr class="sidebar" />
+        <a href="/AddPageAdmin">
+            <i class="ico">&#9737;</i>
+            <i class="txt">Add Products</i>
+        </a>
+
+        <a href="/index" class="Logout">
+            <i class="ico">&#9737;</i>
+            <i class="txt">Logout</i>
+        </a>
+    </div>
+
+    <!-- (B) MAIN -->
+    <main id="pgmain">
+        <div class="data-row">
+        <div class="data">
+            <h3> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Yi53vsdURfm7xT8d73c-MWunSAmelcTjIg&usqp=CAU" />   @Model.prodCount </h3>
+        <p>Different type of products</p>
+        </div>
+        <div class="data">
+            <h3> <img src="https://toppng.com/uploads/preview/browse-our-wide-selection-of-products-and-find-whats-facebook-circle-icon-11563390103jmjg0ykkjf.png" />   @Model.totalcount </h3>
+          <p>Total number of products </p>
+        </div>
+        <div class="data">
+            <h3> <img src="https://cdn-icons-png.flaticon.com/512/3515/3515199.png" />   @Model.stock </h3>
+        <p>In stock</p>
+        </div>
+        <div class="data">
+            <h3> <img src="https://cdn-icons-png.flaticon.com/512/197/197712.png" />   @Model.sold</h3>
+        <p>Products Sold</p>
+        </div>
+        </div>
+    </main>
+</div>
+

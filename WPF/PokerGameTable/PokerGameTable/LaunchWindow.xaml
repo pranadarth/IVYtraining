@@ -1,0 +1,149 @@
+﻿<Window x:Class="PokerGameTable.LaunchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokerGameTable"
+        mc:Ignorable="d"
+        Title="Pokers"  Icon="https://i.pinimg.com/474x/b8/4e/fa/b84efa16785fbc6dc96f45a6d678a720.jpg"
+        WindowStyle="None" AllowsTransparency="True"  WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <SolidColorBrush Opacity="0"/>
+    </Window.Background>
+    <Window.Resources>
+        <ControlTemplate x:Key='Temp1' TargetType='{x:Type Button}'>
+            <Grid>
+                <Ellipse x:Name='Ell' Width='{TemplateBinding Width}' Height='50'>
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint='0,1' EndPoint='1,0'>
+                            <GradientStop Offset='0' Color='#4d292a'/>
+                            <GradientStop Offset='1' Color='#803033'/>
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Viewbox>
+                    <ContentControl Margin='10' Content='{TemplateBinding Content}' FontSize='9' HorizontalContentAlignment='Center' Foreground='AntiqueWhite'/>
+                </Viewbox>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key='Temp2' TargetType='{x:Type Button}'>
+            <Grid>
+                <Ellipse x:Name='Ell' Width='{TemplateBinding Width}' Height='50'>
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint='0,1' EndPoint='1,0'>
+                            <GradientStop Offset='1' Color='#275742'/>
+                            <GradientStop Offset='0' Color='Green'/>
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Viewbox>
+                    <ContentControl Margin='10' Content='{TemplateBinding Content}' FontSize='9' HorizontalContentAlignment='Center' Foreground='AntiqueWhite'/>
+                </Viewbox>
+            </Grid>
+        </ControlTemplate>
+        <Storyboard x:Key="playAnime">
+            <DoubleAnimation From="0" To="6" Duration="00:00:01" 
+                                    Storyboard.TargetName="PlayTransform" 
+                                    Storyboard.TargetProperty="Y"
+                                    AutoReverse="True" RepeatBehavior="Forever">
+                <DoubleAnimation.EasingFunction>
+                    <BounceEase Bounces="1" EasingMode="EaseOut"
+                                                Bounciness="2" />
+                </DoubleAnimation.EasingFunction>
+
+            </DoubleAnimation>
+
+        </Storyboard>
+    </Window.Resources>
+
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="10" Height="205" Width="405" CornerRadius="50,10,50,10" Background="Black">
+            <Border.Effect>
+                <BlurEffect Radius="20" KernelType="Box" />
+            </Border.Effect>
+        </Border>
+    
+    
+
+    <Border BorderBrush="Black" BorderThickness="5" Height="205" Width="405" CornerRadius="50,10,50,10">
+    <!--<Border.Effect>
+        <DropShadowEffect BlurRadius="50" Direction ="-90" RenderingBias ="Quality" ShadowDepth ="2" Color ="black" />
+    </Border.Effect>-->
+    <Border.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+
+
+            <GradientStop Color="#03053b" Offset="1" />
+            <GradientStop Color="#ab8d6d" Offset="0" />
+
+
+
+        </LinearGradientBrush>
+    </Border.Background>
+    <Canvas HorizontalAlignment="Center" VerticalAlignment="Center"  Height="200" Width="400" Background="Transparent">
+            
+
+            <!--Shadow Effect of the button-->
+            <Ellipse Height="60" Width="110" Canvas.Left="233" Canvas.Top="80"  Stroke="Black" StrokeThickness="2" Fill="Black" >
+                <Ellipse.Effect>
+                    <BlurEffect Radius="25"  KernelType="Box" />
+                </Ellipse.Effect>
+            </Ellipse>
+            <Ellipse Height="60" Width="110" Canvas.Left="65" Canvas.Top="80"  Stroke="Black" StrokeThickness="2" Fill="Black">
+                <Ellipse.Effect>
+                    <BlurEffect Radius="25"  KernelType="Box" />
+                </Ellipse.Effect>
+            </Ellipse>
+        
+        <!--Width of the button-->
+        <Ellipse Height="60" Width="110" Canvas.Left="233" Canvas.Top="80"  Stroke="#074228" StrokeThickness="2" Fill="#074228" HorizontalAlignment="Left" VerticalAlignment="Top">
+           
+        </Ellipse>
+        <Ellipse Height="60" Width="110" Canvas.Left="65" Canvas.Top="80"  Stroke="#3b1213" StrokeThickness="2" Fill="#3b1213">
+           
+        </Ellipse>
+
+
+        <TextBlock FontFamily="Comic Sans MS" FontStyle="Italic" Height="29" Width="72" Canvas.Left="164" Canvas.Top="10" Foreground="White" FontSize="26" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Top" Text="Poker"></TextBlock>
+
+        <Button Name="QuitBtn" Content='Quit' FontFamily="Kristen ITC" Template='{StaticResource Temp1}'   Canvas.Top="64"   Canvas.Left="70"  
+                HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" Click="Quit" ToolTip="Don't Miss the fun" >
+            <Button.RenderTransform>
+                <TranslateTransform x:Name="QuitTransform" X="0" Y="0"/>
+            </Button.RenderTransform>
+            <!--<Button.Triggers>
+                <EventTrigger RoutedEvent="Window.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation From="0" To="6" Duration="00:00:01" 
+                                    Storyboard.TargetName="QuitTransform" 
+                                    Storyboard.TargetProperty="Y"
+                                    AutoReverse="True" RepeatBehavior="Forever">
+
+                            </DoubleAnimation>
+                               
+                            </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>-->
+
+        </Button>
+
+
+
+
+        <Button Name="PlayBtn" Content='Play' FontFamily='Kristen ITC' Template='{StaticResource Temp2}'   Canvas.Top="64"  Canvas.Left="238"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" 
+                Click="Play" Height="82" ToolTip="Click Here To Have Fun"  >
+            <Button.RenderTransform>
+                <TranslateTransform x:Name="PlayTransform" X="0" Y="0"/>
+            </Button.RenderTransform>
+          
+        </Button>
+
+          
+
+        </Canvas>
+    </Border>
+    </Grid>
+
+</Window>

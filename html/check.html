@@ -1,0 +1,148 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %><html>
+
+ 
+
+<html>
+<head>
+<style type="text/css">
+#wrap {
+    width: 756px;
+    overflow: auto;
+    border-right: 1px;
+    float: left;
+}
+
+ 
+
+#termsTable td table,#termsTable td table td {
+    border: none;
+}
+</style>
+</head>
+<body>
+<c:set var="httpSess" value='<%=session%>'/>
+<c:choose>
+<c:when test="${gameFormtDisplayDtls.serviceDO.scatterPayoff>0}">
+<c:set var="scatterSymbolCount" value="${gameFormtDisplayDtls.serviceDO.scatterCount}"/>
+</c:when>
+<c:otherwise>
+<c:set var="scatterSymbolCount" value="0"/>
+</c:otherwise>
+</c:choose>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="dataTableCasino">
+<tr>
+<th class="borderLeftBlack"><fmt:message key="PARTY_ACCOUNT_casino_gl_TOTALBET" bundle="${sessionScope.casinoproperties}" /><br>
+        (<fmt:message key="PARTY_ACCOUNT_casino_gl_BET" bundle="${sessionScope.casinoproperties}" />* <fmt:message key="PARTY_ACCOUNT_casino_gl_LINESSELECTED" bundle="${sessionScope.casinoproperties}" />)</th>
+<th width="15">
+<fmt:message key="PARTY_ACCOUNT_casino_gl_LINES" bundle="${sessionScope.casinoproperties}"/>
+</th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_RESULT" bundle="${sessionScope.casinoproperties}"/></th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_NORMALPAYOFF" bundle="${sessionScope.casinoproperties}"/></th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_FEATUREPAYOFF" bundle="${sessionScope.casinoproperties}"/></th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_SCATTER_COUNT" bundle="${sessionScope.casinoproperties}"/></th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_SCATTERPAYOFF" bundle="${sessionScope.casinoproperties}"/></th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_TOTALPAYOFF" bundle="${sessionScope.casinoproperties}"/></th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_CLOSEBAL" bundle="${sessionScope.casinoproperties}"/></th>
+</tr>
+<tr>
+<td valign="center" align="center" class="borderLeftBlack">
+<span class="CLIENT_FORMATTING_CURRENCY">CLIENT_FORMATTING_CURRENCY_${gameFormtDisplayDtls.serviceDO.betPerLine}</span>
+<span> * ${gameFormtDisplayDtls.serviceDO.numOfLinesPlayed}  = </span>
+<span class="CLIENT_FORMATTING_CURRENCY">CLIENT_FORMATTING_CURRENCY_${gameFormtDisplayDtls.serviceDO.totalBet}</span>             
+</td>
+<td>
+<c:choose>
+<c:when test="${gameFormtDisplayDtls.serviceDO.normalPayoff > 0}"> 
+<c:forEach items="${gameFormtDisplayDtls.serviceDO.payoffLineInfo}" var="currentItem" varStatus="stat">
+<c:set var="payinglines" value="${stat.first ? ',' : payinglines}${currentItem.payLineId}," />
+</c:forEach>
+<c:set var="isLeftPayLines" value="true" scope="request" />
+<%@ include file="slots40PayLinesInclude.jsp" %>                                                            
+</c:when>
+<c:otherwise>
+
+<c:set var="imgSlot" value="/casino/images/gamelogs/payLines/none.jpg" scope="request"/>
+<img src="${imgSlot}" width="15" height="89" border="0"/>        
+</c:otherwise>
+</c:choose>
+</td>        
+<td>
+<table cellpadding="0" cellspacing="0" class="dataTableNoStyles">
+<c:forEach items="${gameFormtDisplayDtls.serviceDO.symbolsRevealed}" var="slotimgSymbols" varStatus="symStat">
+<c:if test="${symStat.count == 1 || symStat.count == 6 || symStat.count == 11}">
+<tr class="borderLeftBlack">
+</c:if>
+<td valign="top">
+<c:set var="imgSlot" value="/casino/images/gamelogs/slots/${fn:toLowerCase(gameName)}/${slotimgSymbols}.jpg" scope="request"/>
+<img src="${imgSlot}" width="50" height="50" border="0"/>                            
+</td>                                
+<c:if test="${symStat.count == 5 || symStat.count == 10 || symStat.count == 15}">
+</tr>
+</c:if>    
+</c:forEach>
+</table>
+</td>
+<td class="CLIENT_FORMATTING_CURRENCY">
+            CLIENT_FORMATTING_CURRENCY_${gameFormtDisplayDtls.serviceDO.normalPayoff}        
+</td>
+<td class="CLIENT_FORMATTING_CURRENCY">
+            CLIENT_FORMATTING_CURRENCY_${gameFormtDisplayDtls.serviceDO.payForFeature}
+</td>
+<td><span>${scatterSymbolCount}</span></td>
+
+<td class="CLIENT_FORMATTING_CURRENCY">
+            CLIENT_FORMATTING_CURRENCY_${gameFormtDisplayDtls.serviceDO.scatterPayoff}        
+</td>
+
+<td class="CLIENT_FORMATTING_CURRENCY">
+
+            CLIENT_FORMATTING_CURRENCY_${gameFormtDisplayDtls.serviceDO.totalPayoff}
+
+</td>
+<td class="CLIENT_FORMATTING_CURRENCY">
+
+            CLIENT_FORMATTING_CURRENCY_${clbal}
+
+</td>
+
+ 
+
+    
+</tr>
+</table>
+<br><br>
+<c:if test ="${gameFormtDisplayDtls.serviceDO.scatterWheelCount>0}">
+<table width="80%" border="1" align="center" cellpadding="0" cellspacing="0" class="dataTableCasino">
+<tr>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_BUCKET_LOCK_POSITION" bundle="${sessionScope.casinoproperties}"/></th>
+<th><fmt:message key="PARTY_ACCOUNT_casino_gl_SCATTER_BUCKET_WIN" bundle="${sessionScope.casinoproperties}"/></th>
+</tr>
+<tr>
+
+<td><span>${gameFormtDisplayDtls.serviceDO.scatterWheelCount}</span></td>
+<td class="CLIENT_FORMATTING_CURRENCY">CLIENT_FORMATTING_CURRENCY_${gameFormtDisplayDtls.serviceDO.scatterWheelPayoff}
+</td>
+</tr>
+</table>
+</c:if>
+
+ 
+
+<c:if test="${gameFormtDisplayDtls.serviceDO.isMaxAmountReached() == 'true'}" >
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="dataTableCasino">
+<tr>
+<th  width="15"  class="borderLeftBlack">
+<center>
+<fmt:message key="PARTY_ACCOUNT_casino_gl_WIN_REACHED_TO_CAPPED_VALUE" bundle="${sessionScope.casinoproperties}" />
+                            ::     
+<span class="CLIENT_FORMATTING_CURRENCY">CLIENT_FORMATTING_CURRENCY_${clbal}</span>    
+</center></th></tr>
+</table>
+</c:if>
+<br><br><br><br>
+</body>
+</html>

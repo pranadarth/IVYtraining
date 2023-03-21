@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inbuilt_encryp", "Inbuilt_encryp\Inbuilt_encryp.csproj", "{6905733D-A411-4C97-9AD2-291B4C6806B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6905733D-A411-4C97-9AD2-291B4C6806B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6905733D-A411-4C97-9AD2-291B4C6806B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6905733D-A411-4C97-9AD2-291B4C6806B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6905733D-A411-4C97-9AD2-291B4C6806B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {956EC3B3-0C84-454D-A7D7-48F6C525A398}
+	EndGlobalSection
+EndGlobal

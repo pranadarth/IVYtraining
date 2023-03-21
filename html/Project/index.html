@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Documentation</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <nav id="nav-bar">
+            <header>CSS Documentation &copy; </header>
+            <ul>
+                <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#CSS_Animation">CSS Animation </a></li>
+                <li><a class="nav-link" href="#CSS_Backgrounds_and_Borders">CSS Backgrounds and Borders </a></li>
+                <li><a class="nav-link" href="#CSS_Basic_User_Interface">CSS Basic User Interface </a></li>
+                <!--
+                <li><a class="nav-link" href="#CSS_Box_Model ">CSS Box Model </a></li>
+                -->
+                <li><a class="nav-link" href="#CSS_Charsets">CSS Charsets  </a></li>
+                <li><a class="nav-link" href="#CSS_Color">CSS Color </a></li>
+                <li><a class="nav-link" href="#CSS_Multi-column_Layout">CSS Multi-column Layout </a></li>
+                <li><a class="nav-link" href="#CSS_Conditional_Rules">CSS Conditional Rules </a></li>
+                <li><a class="nav-link" href="#CSS_Counter_Styles">CSS Counter Styles </a></li>
+                
+            </ul>
+
+        </nav>
+
+        <main id="main-doc">
+
+
+            <!--Topic1-->
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <article>
+                    <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the 
+                        presentation of a document written in HTML or XML (including XML dialects such as SVG, 
+                        MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, 
+                        in speech, or on other media.
+                        CSS is among the core languages of the open web and is standardized across Web browsers 
+                        according to W3C specifications. Previously, development of various parts of CSS 
+                        specification was done synchronously, which allowed versioning of the latest recommendations. 
+                        You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an 
+                        official version.</p>
+                    <p>From CSS3, the scope of the specification increased significantly and the progress 
+                        on different CSS modules started to differ so much, that it became more effective 
+                        to develop and release recommendations separately per module. 
+                        Instead of versioning the CSS specification, W3C now periodically takes a 
+                        snapshot of the latest stable state of the CSS specification</p>
+                        <h3>Key resources</h3>
+                    <ul>
+                        <li>CSS Introduction</li>
+                        <p>If you're new to web development, be sure to read our CSS basics article to learn what CSS is and how to use it.</p>
+                        <li>CSS Tutorials</li>
+                        <p>Our CSS learning area contains a wealth of tutorials to take you from beginner level to proficiency, covering all the fundamentals.</p>
+                        <li>CSS Reference</li>
+                        <p>Our exhaustive CSS reference for seasoned Web developers describes every property and concept of CSS.</p>
+                    </ul>
+                    <code>
+                        @keyframes example {
+                            from {background-color: red;} 
+                            to {background-color: yellow;} 
+                          } 
+                          
+                          /* The element to apply the animation to */ 
+                          div { 
+                            width: 100px; 
+                            height: 100px;
+                            background-color: red; 
+                            animation-name: example; 
+                            animation-duration: 4s;
+                          } 
+                    </code>
+
+
+
+
+                </article>
+            </section>
+            <hr>
+            <!--Topic2-->
+            <section class="main-section" id="CSS_Animation">
+                <header>CSS Animation</header>
+                <article>
+                    <p>CSS Animations is a module of CSS that lets you animate the values of CSS 
+                        properties over time, using keyframes. The behavior of these keyframe 
+                        animations can be controlled by specifying their timing function, duration, 
+                        their number of repetitions, and other attributes.</p>
+                    <h4>CSS References</h4>
+                    <ul>
+                        <li>animation</li>
+                        <li>animation-delay</li>
+                        <li>animation-direction</li>
+                        <li>animation-duration</li>
+                        <li>animation-fill-mode</li>
+                        <li>animation-iteration-count</li>
+                        <li>animation-name</li>
+                        <li>animation-play-state</li>
+                        <li>animation-timing-function</li>
+                        
+                    </ul>
+                </article>
+            </section>
+            <hr>
+            <!--Topic3-->
+            <section class="main-section" id="CSS_Backgrounds_and_Borders">
+                <header>CSS Backgrounds and Borders</header>
+                <article>
+                    <p>Styles in the CSS Backgrounds and Borders module allow filling backgrounds with 
+                        color or an image (clipped or resized), or modifying them in other ways. 
+                        These styles can also decorate borders with lines or images, and make them square 
+                        or rounded. (Additionally, element boxes can be decorated with a shadow.)</p>
+                    
+                    <ul>
+                        <li>background</li>
+                        <li>background-attachment</li>
+                        <li>background-clip</li>
+                        <li>background-color</li>
+                        <li>background-image</li>
+                        <li>background-origin</li>
+                        <li>background-position</li>
+                        <li>background-position-x</li>
+                        <li>background-position-y</li>
+                        <li>background-repeat</li>
+                        <li>background-size</li>
+                        <li>border</li>
+                        <li>border-bottom</li>
+                        <li>border-bottom-color</li>
+                        <li>border-bottom-left-radius</li>
+                        <li>border-bottom-right-radius</li>
+                        <li>border-bottom-style</li>
+                        <li>border-bottom-width</li>
+                        <li>border-collapse</li>
+                        <li>border-color</li>
+                        <li>border-image</li>
+                        <li>border-image-outset</li>
+                        <li>border-image-repeat</li>
+                        <li>border-image-slice</li>
+                        <li>border-image-source</li>
+                        <li>border-image-width</li>
+                        <li>border-left</li>
+                        <li>border-left-color</li>
+                        <li>border-left-style</li>
+                        <li>border-left-width</li>
+                        <li>border-radius</li>
+                        <li>border-right</li>
+                        <li>border-right-color</li>
+                        <li>border-right-style</li>
+                        <li>border-right-width</li>
+                        <li>border-style</li>
+                        <li>border-top</li>
+                        <li>border-top-color</li>
+                        <li>border-top-left-radius</li>
+                        <li>border-top-right-radius</li>
+                        <li>border-top-style</li>
+                        <li>border-top-width</li>
+                        <li>border-width</li>
+                        <li>box-shadow</li>
+                        
+                    </ul>
+                </article>
+            </section>
+            <!--Topic4-->
+            <hr>
+            <section class="main-section" id="CSS_Basic_User_Interface">
+                <header>CSS Basic User Interface</header>
+                    <article>
+                    <p>CSS Basic User Interface is a CSS module that lets you define the rendering and 
+                        functionality of features related to the user interface.</p>
+                    
+                    <ul>
+                        <li>appearance </li>
+                        <li>box-sizing</li>
+                        <li>cursor</li>
+                        <li>ime-mode </li>
+                        <li>nav-down </li>
+                        <li>nav-left </li>
+                        <li>nav-right </li>
+                        <li>nav-up </li>
+                        <li>outline</li>
+                        <li>outline-width</li>
+                        <li>outline-style</li>
+                        <li>outline-color</li>
+                        <li>outline-offset</li>
+                        <li>resize</li>
+                        <li>text-overflow</li>
+                        <li>user-select</li>
+                        
+                    </ul>
+                </article>
+            </section>
+            <!--Topic5-->
+            <!--
+            <section class="main-section" id="CSS_Box_Model">
+                <header>CSS Box Model</header>
+                <article>
+                    <p>CSS Box Model is a module of CSS that defines the rectangular boxes—including their padding and 
+                        margin—that are generated for elements and laid out according to the visual formatting model.</p>
+                        <h4>The Box Model</h4>
+                    <p>A box in CSS consists of a content area, which is where any text, images, or 
+                        other HTML elements are displayed. This is optionally surrounded by padding, a border, 
+                        and a margin, on one or more sides. The box model describes how these elements work 
+                        together to create a box as displayed by CSS. To learn more about it read Introduction 
+                        to the CSS Box Model</p>
+                    <ul>
+                        <li>content-box</li>
+                        <li>padding-box</li>
+                        <li>border-box</li>
+                        <li>margin-box</li>
+                        <li>stroke-box</li>
+                        <li>view-box</li>
+                       
+                    </ul>
+                    <code>
+                        div {
+                            width: 300px;
+                            border: 15px solid green;
+                            padding: 50px;
+                            margin: 20px;
+                          }
+                    </code>
+                </article>
+            </section>
+            -->
+            <!--Topic6-->
+            <hr>
+            <section class="main-section" id="CSS_Charsets">
+                <header>CSS Charsets</header>
+                <article>
+                    <p>CSS Charsets is a module of CSS that lets you specify the character set used in the style sheet.</p>
+                    <code>
+                        @charset "UTF-8";       /* Set the encoding of the style sheet to Unicode UTF-8 */
+                        @charset 'iso-8859-15'; /* Invalid, wrong quoting style used */
+                        @charset  "UTF-8";      /* Invalid, more than one space */
+                        @charset "UTF-8";      /* Invalid, there is a character (a space) before the at-rule */
+                        @charset UTF-8;         /* Invalid, without ' or ", the charset is not a CSS <string> */
+                    </code>
+                    
+                </article>
+
+            </section>
+            <hr>
+            <!--Topic7-->
+            <section class="main-section" id="CSS_Color">
+                <header>CSS Color</header>
+                <article>
+                    <p>CSS Color is a CSS module that deals with colors, color types, color blending, opacity, 
+                        and how you can apply these colors and effects to HTML content. 
+                        Not all CSS properties that take a <color> as a value are part of this module, 
+                            but they do depend upon it.</p>
+                    <h4>Properties</h4>
+                    <ul>
+                        <li>color</li>
+                        <li>color-adjust</li>
+                        <li>opacity</li>
+                        
+                    </ul>
+                    <code>
+                        h1 { 
+                            color: blue;
+                            }
+                    </code>
+                </article>
+            </section>
+            <hr>
+            <!--Topic8-->
+            <section class="main-section" id="CSS_Multi-column_Layout">
+                <header>CSS Multi-column Layout</header>
+                <article>
+                    <p>CSS Multi-column Layout is a module of CSS that adds support for multi-column layouts. 
+                        Support is included for establishing the number of columns in a layout, as well as how 
+                        content should flow from column to column, gap sizes between columns, 
+                        and column dividing lines (known as column rules) along with their appearance.</p>
+                    <h4>Multiple-column Layout Properties</h4>
+                    <ul>
+                        <li>column-count</li>
+                        <li>column-fill</li>
+                        <li>column-gap</li>
+                        <li>column-rule</li>
+                        <li>column-rule-color</li>
+                        <li>column-rule-style</li>
+                        <li>column-rule-width</li>
+                        <li>column-span</li>
+                        <li>column-width</li>
+                        <li>columns</li>
+                            
+                        
+                    </ul>
+                    <code>
+                        div {
+                            column-count: 3;
+                          }
+
+
+                          div {
+                            column-gap: 40px;
+                          }
+                    </code>
+                </article>
+            </section>
+            <hr>
+            <!--Topic9-->
+            <section class="main-section" id="CSS_Conditional_Rules">
+                <header>CSS Conditional Rules</header>
+                <article>
+                    <p>CSS Conditional Rules is a CSS module that allows to define a set of rules that will only 
+                        apply based on the capabilities of the processor 
+                        or the document the style sheet is being applied to.</p>
+                    <h4>At-rules</h4>
+                    <ul>
+                        <li>@document</li>
+                        <li>@media</li>
+                        <li>@supports</li>
+                        <li>@import</li>
+                        
+                    </ul>
+                </article>
+            </section>
+            <hr>
+            <!--Topic10-->
+            <section class="main-section" id="CSS_Counter_Styles">
+                <header>CSS Counter Styles</header>
+                <article>
+                    <p>CSS Counter Styles is a module of CSS that lets you define your own counter styles.</p>
+                    <h4>Properties</h4>
+                    <ul>
+                        <li>counter-increment</li>
+                        <li>counter-reset</li>
+                    </ul>
+
+                    <code>
+                        body {
+                            counter-reset: section;
+                          }
+                          
+                          h2::before {
+                            counter-increment: section;
+                            content: "Section " counter(section) ": ";
+                          }
+                    </code>
+                </article>
+            </section>
+            <hr>
+             <a href="mailto:pranadarths@gmail.com" > Contact</a>  
+             <a href="#">GoTop</a>
+            
+        </main>
+
+
+    </body>
+</html>

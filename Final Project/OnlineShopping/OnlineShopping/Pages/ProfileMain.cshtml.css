@@ -1,0 +1,140 @@
+﻿body {
+}
+
+.navbar {
+    overflow: hidden;
+    background: linear-gradient(to left,black,#100930);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    border-radius: 25px;
+    padding: 14px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+    /* Right-aligned link */
+    .navbar a.right {
+        float: right;
+    }
+
+        .navbar a.right:hover {
+            background: linear-gradient(to left,#a34059,#801212);
+            border-radius: 25px;
+        }
+
+    /* Change color on hover */
+    .navbar a:hover {
+        background-color: grey;
+        color: black;
+        border-radius: 25px;
+    }
+
+    /* Active/current link */
+    .navbar a:focus {
+        background: linear-gradient(#666,#323333);
+        color: white;
+        border-radius: 25px;
+    }
+
+
+
+
+/* Main column */
+.main {
+    flex-grow: 1;
+    background: url(https://wallpaperaccess.com/full/1092758.jpg);
+    background-size: 112%;
+    color: aliceblue;
+    padding-bottom:2%;
+}
+
+h3 {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+h {
+    /*color: #cf6e3a;*/
+    color: grey;
+    font-family: 'Comic Sans MS';
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.row-cols-1 {
+    background: linear-gradient(to left,#264d75,#392663);
+    width: 40%;
+    margin-left: 29%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 10px black;
+}
+
+
+input {
+    padding: 15px;
+    width: 80%;
+    margin: 5px 0 20px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    border: none;
+    font-size: larger;
+    font-weight:500;
+}
+
+label
+{
+    margin-left:20px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 12px;
+    margin-right: 7%;
+    width: 25%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 5px black;
+   
+}
+
+.buttons
+{
+    text-align:center;
+}
+
+.btn-success {
+    background: linear-gradient(to left,#185222,#187d34);
+}
+
+.btn-primary {
+    background: linear-gradient(to left,#656e75,#3f4142);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(to right,#264d75,#392663);
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.75;
+}
+
+.alert {
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 18%;
+}
+

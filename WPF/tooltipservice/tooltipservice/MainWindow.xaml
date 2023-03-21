@@ -1,0 +1,34 @@
+﻿<Window x:Class="tooltipservice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tooltipservice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="237,179,347,160">
+        <Ellipse Height="25" Width="50" 
+      Fill="Gray" 
+      HorizontalAlignment="Left"
+      ToolTipService.InitialShowDelay="1000"
+      ToolTipService.ShowDuration="7000"
+      ToolTipService.BetweenShowDelay="2000"
+      ToolTipService.Placement="Right" 
+      ToolTipService.PlacementRectangle="50,0,0,0"
+      ToolTipService.HorizontalOffset="10" 
+      ToolTipService.VerticalOffset="20"
+      ToolTipService.HasDropShadow="false"
+      ToolTipService.ShowOnDisabled="true" 
+      ToolTipService.IsEnabled="true">
+            <Ellipse.ToolTip>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="20" Fill="Blue"/>
+                    </BulletDecorator.Bullet>
+                    <TextBlock>Uses the ToolTipService class</TextBlock>
+                </BulletDecorator>
+            </Ellipse.ToolTip>
+        </Ellipse>
+
+    </Grid>
+</Window>

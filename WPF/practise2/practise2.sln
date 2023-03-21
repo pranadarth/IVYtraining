@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practise2", "practise2\practise2.csproj", "{3B1D76A2-6D93-482E-88FB-3D18C0BFBA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoJump", "LogoJump\LogoJump.csproj", "{7A7A3B4E-32F4-4134-BCE5-2F213EC39079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatMsg", "ChatMsg\ChatMsg.csproj", "{6612EBFF-D87B-48F9-A4F1-832C25050E62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B1D76A2-6D93-482E-88FB-3D18C0BFBA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1D76A2-6D93-482E-88FB-3D18C0BFBA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1D76A2-6D93-482E-88FB-3D18C0BFBA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1D76A2-6D93-482E-88FB-3D18C0BFBA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7A3B4E-32F4-4134-BCE5-2F213EC39079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7A3B4E-32F4-4134-BCE5-2F213EC39079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7A3B4E-32F4-4134-BCE5-2F213EC39079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7A3B4E-32F4-4134-BCE5-2F213EC39079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6612EBFF-D87B-48F9-A4F1-832C25050E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6612EBFF-D87B-48F9-A4F1-832C25050E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6612EBFF-D87B-48F9-A4F1-832C25050E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6612EBFF-D87B-48F9-A4F1-832C25050E62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {074F6879-8C60-4505-989B-44595DB81407}
+	EndGlobalSection
+EndGlobal

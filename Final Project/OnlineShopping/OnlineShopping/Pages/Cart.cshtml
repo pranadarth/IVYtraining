@@ -1,0 +1,53 @@
+﻿@page
+@model OnlineShopping.Pages.CartModel
+@{
+    ViewData["Title"] = "My Cart";
+}
+<div class="navbar">
+    <a href="/Home?E_Id=@Model.info1.c_email#prodpg"><i class="fas fa-home"></i>Home</a>
+    <a href="/ProfileMain?E_Id=@Model.info1.c_email">👤 Profile</a>
+        <a href="#">🛒 My cart</a>
+  <a href="/Index" class="right">Logout</a>
+</div>
+
+  <div class="main" id="prodpg">
+        <h3>Checkout</h3>
+    <div class="body">
+        <div class="CartContainer">
+            <div class="Header">
+                <h3 class="Heading">Shopping Cart</h3>
+            </div>
+            <hr />
+            
+           @foreach(var x in Model.list)
+            {
+            <div class="Cart-Items">
+                <div class="about">
+                    <h1 class="title">@x.p_name</h1>
+                 </div>
+                    <h3 class="subtitle">@x.meta1</h3>
+                <div class="counter">
+                    <div class="btn">+</div>
+                    <div class="count">@x.count</div>
+                    <div class="btn">-</div>
+                </div>
+                <div class="prices">
+                    <div class="amount">Rs.@x.amount/-</div>
+                        <div onclick="location.href='/DeleteCart?name=@x.p_name&E_id=@Model.info1.c_email&count=@x.count'"  class="remove"><u>Remove</u></div>
+                </div>
+            </div>
+           }
+            <hr>
+            <div class="checkout">
+                <div class="total">
+                    <div>
+                        <div class="Subtotal">Sub-Total</div>
+                        <div class="items">@Model.cartCount</div>
+                    </div>
+                    <div class="total-amount">Rs.@Model.cartPrice/-</div>
+                </div>
+                <button class="button">Checkout</button>
+            </div>
+        </div>
+    </div>
+  </div>
