@@ -3,11 +3,50 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:practise2" 
+        xmlns:local="clr-namespace:practise2" Height="450" Width="800"
         xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+       
+       
         mc:Ignorable="d">
+    <Window.Background>
+        <SolidColorBrush Color="#1e0952" />
+    </Window.Background>
    
-    <Grid>
-        <Rectangle Height="300" Width="500" />
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+             </Grid.RowDefinitions>
+        <TextBlock Text="Table" FontFamily="Saira" FontWeight="Bold" Foreground="#FFFFFF" Margin="16" Grid.Column="1" Grid.Row="1" />
+        <Border CornerRadius="8" Grid.Row="1" Grid.Column="1" >
+            <Border.Background>
+                <SolidColorBrush Color="White" Opacity="0.15" />
+            </Border.Background>
+
+            <ScrollViewer Margin="16,48,16,16" CanContentScroll="True" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto">
+              <Grid Name="Wrap" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+            
+                <StackPanel Name="Wrap1" Grid.Column="0"/>
+                <StackPanel Name="Wrap2" Grid.Column="1"/>
+
+            </Grid>
+            </ScrollViewer>
+        </Border>
+        
+        <TextBox x:Name="Type" Grid.Row="2" Grid.Column="1" Background="White" VerticalAlignment="Bottom" Margin="15" 
+                 VerticalContentAlignment="Center" KeyDown="enterKey"/>
+        
     </Grid>
+   
 </Window>

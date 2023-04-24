@@ -61,7 +61,7 @@
                 </Canvas>
                 <Label Content="Role" Canvas.Top="90" Canvas.Left="20"  />
         <ComboBox  Name="Role"   Canvas.Top="90" Canvas.Left="100" Width="100" IsReadOnly="True" Text="Please Select"
-                  BorderBrush="Green" BorderThickness="2" SelectionChanged="Role_SelectionChanged" SelectedIndex="0">
+                  BorderBrush="Green" BorderThickness="2" SelectionChanged="Role_SelectionChanged" SelectedIndex="0" ScrollViewer.HorizontalScrollBarVisibility="Hidden" >
                     <ComboBoxItem >Select</ComboBoxItem>
                     <ComboBoxItem Content="Student"/>
                     <ComboBoxItem Selected="teach">Teacher</ComboBoxItem>

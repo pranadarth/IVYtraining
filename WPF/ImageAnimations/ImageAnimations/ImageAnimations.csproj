@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1F1DA11-DFB9-4B25-9D7E-6B5CAEFCB74F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ImageAnimations</RootNamespace>
+    <AssemblyName>ImageAnimations</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\T Clock_Smoke_White_Loop0000.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0001.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0002.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0003.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0004.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0005.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0006.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0007.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0008.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0009.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0010.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0011.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0012.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0013.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0014.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0015.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0016.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0017.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0018.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0019.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0020.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0021.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0022.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0023.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0024.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0025.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0026.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0027.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0028.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0029.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0030.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0031.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0032.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0033.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0034.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0035.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0036.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0037.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0038.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0039.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0040.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0041.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0042.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0043.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0044.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0045.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0046.png" />
+    <Resource Include="Images\T Clock_Smoke_White_Loop0047.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_000.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_001.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_002.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_003.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_004.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_005.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_006.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_007.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_008.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_009.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_010.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_011.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_012.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_013.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_014.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_015.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_016.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_017.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_018.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_019.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_020.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_021.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_022.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_023.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_024.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_025.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_026.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_027.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_028.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_029.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_030.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_031.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_032.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_033.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_034.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_035.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_036.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_037.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_038.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_039.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_040.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_041.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_042.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_043.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_044.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_045.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_046.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_047.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_048.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_049.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_050.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_051.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_052.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_053.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_054.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_055.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_056.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_057.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_058.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_059.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_060.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_061.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_062.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_063.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_064.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_065.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_066.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_067.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_068.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_069.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_070.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_071.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_072.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_073.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_074.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_075.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_076.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_077.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_078.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_079.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_080.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_081.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_082.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_083.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_084.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_085.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_086.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_087.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_088.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_089.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_090.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_091.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_092.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_093.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_094.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_095.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_096.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_097.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_098.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_099.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_100.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_101.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_102.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_103.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_104.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_105.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_106.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_107.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_108.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_109.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_110.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_111.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_112.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_113.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_114.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_115.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_116.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_117.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_118.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_119.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_120.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_121.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_122.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_123.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_124.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_125.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_126.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_127.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_128.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_129.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_130.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_131.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_132.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_133.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_134.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_135.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_136.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_137.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_138.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_139.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_140.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_141.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_142.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_143.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_144.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_145.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_146.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_147.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_148.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_149.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_150.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_151.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_152.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_153.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_154.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_155.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_156.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_157.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_158.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_159.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_160.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_161.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_162.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_163.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_164.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_165.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_166.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_167.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_168.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_169.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_170.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_171.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_172.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_173.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_174.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_175.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_176.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_177.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_178.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_179.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_180.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_181.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_182.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_183.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_184.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_185.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_186.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_187.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_188.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_189.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_190.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_191.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_192.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_193.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_194.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_195.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_196.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_197.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_198.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_199.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_200.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_201.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_202.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_203.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_204.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_205.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_206.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_207.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_208.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_209.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_210.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_211.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_212.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_213.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_214.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_215.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_216.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_217.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_218.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_219.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_220.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_221.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_222.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_223.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_224.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_225.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_226.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_227.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_228.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_229.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_230.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_231.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_232.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_233.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_234.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_235.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_236.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_237.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_238.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_239.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_240.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_241.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_242.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_243.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_244.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_245.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_246.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_247.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_248.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_249.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_250.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_251.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_252.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_253.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_254.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_255.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_256.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_257.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_258.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_259.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_260.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_261.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_262.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_263.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_264.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_265.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_266.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_267.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_268.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_269.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_270.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_271.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_272.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_273.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_274.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_275.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_276.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_277.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_278.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_279.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_280.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_281.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_282.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_283.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_284.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_285.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_286.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_287.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_288.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_289.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_290.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_291.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_292.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_293.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_294.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_295.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_296.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_297.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_298.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_299.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_300.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_301.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_302.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_303.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_304.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_305.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_306.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_307.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_308.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_309.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_310.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_311.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_312.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_313.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_314.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_315.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_316.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_317.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_318.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_319.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_320.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_321.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_322.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_323.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_324.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_325.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_326.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_327.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_328.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_329.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_330.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_331.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_332.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_333.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_334.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_335.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_336.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_337.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_338.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_339.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_340.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_341.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_342.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_343.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_344.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_345.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_346.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_347.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_348.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_349.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_350.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_351.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_352.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_353.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_354.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_355.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_356.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_357.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_358.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_359.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_360.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_361.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_362.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_363.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_364.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_365.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_366.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_367.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_368.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_369.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_370.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_371.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_372.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_373.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_374.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_375.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_376.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_377.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_378.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_379.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_380.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_381.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_382.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_383.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_384.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_385.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_386.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_387.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_388.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_389.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_390.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_391.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_392.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_393.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_394.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_395.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_396.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_397.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_398.png" />
+    <Resource Include="Images\Tourney Clock_White_60FPS_399.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
