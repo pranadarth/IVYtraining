@@ -69,20 +69,22 @@ namespace ImageAnimations
         
         void ChangeSmokeImg()
         {
-            ImgSrc = new BitmapImage(new Uri(@"C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\ImageAnimations\ImageAnimations\Images\T Clock_Smoke_White_Loop0000.png"));
-
+            // ImgSrc = new BitmapImage(new Uri(@"C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\ImageAnimations\ImageAnimations\CoinImages\T Clock_Smoke_White_Loop0000.png"));
+            ImgSrc = new BitmapImage(new Uri($@"C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\ImageAnimations\ImageAnimations\CoinImages\spalsh screen V-2-100.png"));
             int i = 1;
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(0.03);
             timer.Tick += (s, a) =>
             {
-                if (i > 47)
+                if (i > 72)
                 {
                     timer.Stop();
-                    ChangeLoadingImg();
+                    //ChangeLoadingImg();
+                    ChangeSmokeImg();
                 }
                 else
-                    ImgSrc = new BitmapImage(new Uri($@"C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\ImageAnimations\ImageAnimations\Images\T Clock_Smoke_White_Loop00{i++:00}.png"));
+                    //  ImgSrc = new BitmapImage(new Uri($@"C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\ImageAnimations\ImageAnimations\CoinImages\T Clock_Smoke_White_Loop00{i++:00}.png"));
+                    ImgSrc = new BitmapImage(new Uri($@"C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\ImageAnimations\ImageAnimations\CoinImages\spalsh screen V-2-1{i++:00}.png"));
             };
             timer.Start();
         }

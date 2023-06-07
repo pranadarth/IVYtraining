@@ -5,48 +5,55 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:practise2" Height="450" Width="800"
         xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
-       
+       xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
        
         mc:Ignorable="d">
-    <Window.Background>
-        <SolidColorBrush Color="#1e0952" />
-    </Window.Background>
-   
-        <Grid >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+    <Window.Resources>
+        <ResourceDictionary Source="Black.xaml" />
+    </Window.Resources>
+
+    <Grid >
+        <Grid x:Name="Lobby_Login_Grid_ForBlurEffect" Height="650" Width="650" HorizontalAlignment="Center"
+          Background="{DynamicResource DLS_LobbyTheme_LoginWindow_BlurEffect_Brush}">
+            <Grid.Effect>
+                <BlurEffect  Radius="100" KernelType="Box"/>
+            </Grid.Effect>
+        </Grid>
+        <Grid x:Name="Lobby_Login_Grid" Height="628" Width="456" HorizontalAlignment="Center">
             <Grid.RowDefinitions>
-                <RowDefinition Height="1*"></RowDefinition>
-                <RowDefinition Height="3*"></RowDefinition>
-                <RowDefinition Height="2*"></RowDefinition>
-             </Grid.RowDefinitions>
-        <TextBlock Text="Table" FontFamily="Saira" FontWeight="Bold" Foreground="#FFFFFF" Margin="16" Grid.Column="1" Grid.Row="1" />
-        <Border CornerRadius="8" Grid.Row="1" Grid.Column="1" >
-            <Border.Background>
-                <SolidColorBrush Color="White" Opacity="0.15" />
-            </Border.Background>
+                <RowDefinition MinHeight="188"></RowDefinition>
+                <RowDefinition MaxHeight="32"></RowDefinition>
+                <RowDefinition MinHeight="188"></RowDefinition>
+                <RowDefinition MaxHeight="32"></RowDefinition>
+                <RowDefinition MinHeight="188"></RowDefinition>
+            </Grid.RowDefinitions>
 
-            <ScrollViewer Margin="16,48,16,16" CanContentScroll="True" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto">
-              <Grid Name="Wrap" VerticalAlignment="Top">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                
-            
-                <StackPanel Name="Wrap1" Grid.Column="0"/>
-                <StackPanel Name="Wrap2" Grid.Column="1"/>
+            <Grid Grid.Row="0" Style="{StaticResource DLS_Lobby_LoginWindow_TopBackground}">
 
+                <Border Style="{DynamicResource  DLS_Lobby_LoginWindow_TopBorderBrush_Left}" />
+                <Border Style="{DynamicResource  DLS_Lobby_LoginWindow_TopBorderBrush_Right}" />
+                <Image Source="{DynamicResource Login_Popup_HeaderPatches}" VerticalAlignment="Top" Stretch="Uniform"/>
             </Grid>
-            </ScrollViewer>
-        </Border>
-        
-        <TextBox x:Name="Type" Grid.Row="2" Grid.Column="1" Background="White" VerticalAlignment="Bottom" Margin="15" 
-                 VerticalContentAlignment="Center" KeyDown="enterKey"/>
-        
+            <Grid Grid.Row="1" Margin="0,-1,0,-1">
+                <Grid.Background>
+                    <ImageBrush ImageSource="{DynamicResource DLS_Lobby_LoginWindow_trapezium_topDrawingImage}"/>
+                </Grid.Background>
+            </Grid>
+            <Grid Grid.Row="2" Style="{StaticResource DLS_Lobby_LoginWindow_MiddleBackground}" >
+                <Border Style="{DynamicResource DLS_Lobby_LoginWindow_MiddleBorderBrush_Left}" />
+                <Border Style="{DynamicResource DLS_Lobby_LoginWindow_MiddleBorderBrush_Right}" />
+            </Grid>
+            <Grid Grid.Row="3" Margin="0,-1,0,-1">
+                <Grid.Background>
+                    <ImageBrush ImageSource="{DynamicResource DLS_Lobby_LoginWindow_trapezium_BottomDrawingImage}"/>
+                </Grid.Background>
+            </Grid>
+            <Grid Grid.Row="4" Style="{StaticResource DLS_Lobby_LoginWindow_BottomBackground}">
+
+                <Border Style="{DynamicResource   DLS_Lobby_LoginWindow_BottomBorderBrush_Left}" />
+                <Border Style="{DynamicResource  DLS_Lobby_LoginWindow_BottomBorderBrush_Right}" />
+            </Grid>
+        </Grid>
     </Grid>
-   
+
 </Window>

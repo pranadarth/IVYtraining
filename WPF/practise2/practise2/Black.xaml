@@ -1,0 +1,1104 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+    <SolidColorBrush x:Key="WindowBackground" Color="Black" />
+   
+        <!--#region Color Palette-->
+
+        <!--#region UX Brushes Do not change-->
+        <!--<Color x:Key="white">#FFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White">#FFFFFF</Color>
+        <!--<Color x:Key="white-shadow">#03FFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_WhiteShadow">#03FFFFFF</Color>
+        <!--<Color x:Key="dropdow_purple">#21194e</Color>-->
+        <Color x:Key="DLS_LobbyTheme_DropdownPurple">#21194e</Color>
+        <!--<Color x:Key="light-white">#00FFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_LightWhite">#00FFFFFF</Color>
+        <!--<Color x:Key="aqua-focus">#FF50EFF9</Color>-->
+        <Color x:Key="DLS_LobbyTheme_AquaFocusColor">#FF50EFF9</Color>
+
+        <!--<Color x:Key="aqua">#50eff9</Color>-->
+        <Color x:Key="DLS_LobbyTheme_AquaColor">#50eff9</Color>
+        <!--<Color x:Key="aqua-shadow">#FF8AD9E3</Color>-->
+        <Color x:Key="DLS_LobbyTheme_AquaShadowColor">#FF8AD9E3</Color>
+        <!--<Color x:Key="black-100">#FF000000</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Black100">#FF000000</Color>
+        <!--<Color x:Key="black-16">#29000000</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Black16">#29000000</Color>
+        <!--<Color x:Key="black-24">#3D000000</Color>-->
+        <!--<Color x:Key="DLS_LobbyTheme_Color_Black24">#3D000000</Color>-->
+        <!--<Color x:Key="black-32">#52000000</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Black32">#52000000</Color>
+        <!--<Color x:Key="black-72">#B8000000</Color>-->
+        <!--<Color x:Key="DLS_LobbyTheme_Color_Black72">#B8000000</Color>-->
+        <!--<Color x:Key="black-8">#14000000</Color>-->
+        <!--<Color x:Key="black-1">#03000000</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Black1">#03000000</Color>
+        <!--<Color x:Key="Layout-Colors-600">#333333</Color>-->
+        <Color x:Key="DLS_LobbyTheme_LayoutColors600">#333333</Color>
+        <!--<Color x:Key="Layout-Colors-500">#191919</Color>-->
+        <Color x:Key="DLS_LobbyTheme_LayoutColors500">#191919</Color>
+        <!--<Color x:Key="primary/500">#999999</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Primary500">#999999</Color>
+        <!--<Color x:Key="aqualink">#224F74</Color>-->
+
+        <Color x:Key="DLS_LobbyTheme_Aqualink">#224F74</Color>
+        <!--<Color x:Key="DLS_LobbyTheme_Black-100">#FF000000</Color>-->
+
+
+
+        <!--<Color x:Key="blue">#FF224F74</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Blue">#FF224F74</Color>
+        <!--<Color x:Key="highlightblue">#199ef8</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Highlightblue">#199ef8</Color>
+        <!--<Color x:Key="danger-red">#FFEB5757</Color>-->
+        <Color x:Key="DLS_LobbyTheme_DangerRed">#FFEB5757</Color>
+        <!--<Color x:Key="dark-blue">#FF140E35</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Darkblue">#FF140E35</Color>
+        <!--<Color x:Key="darker-purple">#FF362B66</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Darkerpurple">#FF362B66</Color>
+        <!--<Color x:Key="darker-purple-08">#14362B66</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Darkerpurple08">#14362B66</Color>
+        <!--<Color x:Key="darker-blue">#261F5B</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Darkerblue">#261F5B</Color>
+        <!--<Color x:Key="darker-Backgroundblue">#1D1847</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_DarkerBackgroundblue">#1D1847</Color>
+
+        <!--<Color x:Key="green">#FF00D059</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Green">#FF00D059</Color>
+        <!--<Color x:Key="green-2707">#FF65B625</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Green2707">#FF65B625</Color>
+        <!--<Color x:Key="light-lime-green">#72FF66</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_LightLimeGreen">#72FF66</Color>
+        <!--<Color x:Key="light-cyan">#FFB1F9FE</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Lightcyan">#FFB1F9FE</Color>
+        <!--<Color x:Key="lime">#FFCDFD43</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Lime">#FFCDFD43</Color>
+        <!--<Color x:Key="moccasin">#FFF6C46B</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Moccasin">#FFF6C46B</Color>
+        <!--<Color x:Key="moccasin-72">#B8F6C46B</Color>-->
+        <!--<Color x:Key="orange">#FFEA8944</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Orange">#FFEA8944</Color>
+        <!--<Color x:Key="bright-Orange">#E8B143</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_BrightOrange">#E8B143</Color>
+        <!--<Color x:Key="warning-500">#EA8944</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Warning500">#EA8944</Color>
+        <Color x:Key="DLS_LobbyTheme_Color_Warning500Custom">#FF9466</Color>
+        <!--<Color x:Key="pop-up-blue">#FF140E35</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Popupblue">#FF140E35</Color>
+        <!--<Color x:Key="hot-pink">#ff74b7</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Hotpink">#ff74b7</Color>
+        <!--ToDo  need to change the key of the color.-->
+        <!--<Color x:Key="light-pink">#F1C5D8</Color>-->
+        <!--<Color x:Key="purple">#FFB361FF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Purple">#FFB361FF</Color>
+        <!--<Color x:Key="purple-2607">#FF3D3093</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Purple2607">#FF3D3093</Color>
+        <!--<Color x:Key="Regal-Blue">#2A2265</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_RegalBlue">#2A2265</Color>
+        <!--<Color x:Key="purple-secondary">#FF463973</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Purplesecondary">#FF463973</Color>
+        <!--<Color x:Key="indigo-800">#151133</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Indigo800">#151133</Color>
+        <!--<Color x:Key="indigo-500">#2A2265</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Indigo500">#2A2265</Color>
+
+        <!--<Color x:Key="screaming-green">#72ff66</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Screaminggreen">#72ff66</Color>
+        <!--<Color x:Key="sky-blue">#FF3FD1FF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Skyblue">#FF3FD1FF</Color>
+        <!--<Color x:Key="sky-blue-72">#B83FD1FF</Color>-->
+        <!--<Color x:Key="sky-blue-500">#199EF8</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Skyblue500">#199EF8</Color>
+        <!--<Color x:Key="sky-blue-50">#D1ECFE</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Skyblue50">#D1ECFE</Color>
+        <!--<Color x:Key="sky-blue-100">#BAE2FD</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Skyblue100">#BAE2FD</Color>
+        <!--<Color x:Key="sky-blue-400">#75C5FB</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Skyblue400">#75C5FB</Color>
+
+        <!--<Color x:Key="white-100">#FFFFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White100">#FFFFFFFF</Color>
+        <Color x:Key="DLS_Lobby_white-100">#FFFFFFFF</Color>
+        <!--<Color x:Key="white-16">#29FFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White16">#29FFFFFF</Color>
+        <!--<Color x:Key="white-24">#3DFFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White24">#3DFFFFFF</Color>
+        <!--<Color x:Key="white-32">#52FFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White32">#52FFFFFF</Color>
+        <!--<Color x:Key="white-4">#AFFFFFFF</Color>-->
+        <!--<Color x:Key="DLS_LobbyTheme_Color_White4">#AFFFFFFF</Color>-->
+        <!--<Color x:Key="white-40">#66FFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White40">#66FFFFFF</Color>
+        <!--<Color x:Key="white-56">#8FFFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White56">#8FFFFFFF</Color>
+        <!--<Color x:Key="white-72">#B8FFFFFF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_White72">#B8FFFFFF</Color>
+        <!--<Color x:Key="white-8">#14FFFFFF</Color>-->
+
+        <!--<Color x:Key="yellow">#FFEFDF88</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Yellow">#FFEFDF88</Color>
+        <!--<Color x:Key="yellow-2707">#FFFFF068</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Yellow2707">#FFFFF068</Color>
+        <!--<Color x:Key="light-grey">#FFDBDBDB</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Lightgrey">#FFDBDBDB</Color>
+        <!--<Color x:Key="dark-grey">#FF48455B</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Darkgrey">#FF48455B</Color>
+
+        <!--<Color x:Key="black-50">#7F000000</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Black50">#7F000000</Color>
+        <!--<Color x:Key="black-0">#00000000</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Black0">#00000000</Color>
+        <!--<Color x:Key="black">#000000</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Black">#000000</Color>
+        <!--<Color x:Key="haiti">#FF130E32</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Haiti">#FF130E32</Color>
+        <!--<Color x:Key="haiti-88">#E0130E32</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Haiti88">#E0130E32</Color>
+
+        <!--<Color x:Key="lightgrey">#e7e7e7</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Lightgrey1">#e7e7e7</Color>
+
+        <!--<Color x:Key="AquaFocus700">#38A7AE</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_AquaFocus700">#38A7AE</Color>
+        <!--<Color x:Key="AquaFocus500">#50EFF9</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_AquaFocus500">#50EFF9</Color>
+        <!--<Color x:Key="AquaFocus800">#28787D</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_AquaFocus800">#28787D</Color>
+
+        <!--<Color x:Key="MangoOrange200">#FFF6E0B4</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_MangoOrange200">#FFF6E0B4</Color>
+        <!--<Color x:Key="MangoOrange400">#FFF1D08E</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_MangoOrange400">#FFF1D08E</Color>
+        <Color x:Key="DLS_LobbyTheme_Color_MangoOrange400Custom">#FFCB61</Color>
+        <!--<Color x:Key="MangoOrange500">#E8B143</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_MangoOrange500">#E8B143</Color>
+        <!--<Color x:Key="MangoOrange600">#FFD19F3C</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_MangoOrange600">#FFD19F3C</Color>
+        <Color x:Key="DLS_LobbyTheme_Color_MangoOrange100">#F8E8C7</Color>
+        <Color x:Key="DLS_LobbyTheme_Color_Warning100">#F9DCC7</Color>
+
+        <!--<Color x:Key="Dark-Blue-Color">#23224D</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_DarkBlueColor">#23224D</Color>
+        <!--<Color x:Key="OliveGreen">#716A873D</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_OliveGreen">#716A873D</Color>
+        <!--<Color x:Key="Blue-50-Color">#362E57</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Blue50Color">#362E57</Color>
+        <!--<Color x:Key="Violet_300">#D9B0FF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Violet300">#D9B0FF</Color>
+        <!--<Color x:Key="PinkSwan">#EB3B3B</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_PinkSwan">#EB3B3B</Color>
+        <!--<Color x:Key="Violet_350">#D1A0FF</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Violet_350">#D1A0FF</Color>
+
+        <!--<Color x:Key="Error500">#EB5757</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Error500">#EB5757</Color>
+        <!--<Color x:Key="Indigo900">#0D0A1E</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_Indigo900">#0D0A1E</Color>
+        <!--<Color x:Key="GlobalNeutral900">#191919</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalNeutral900">#191919</Color>
+        <!--<Color x:Key="GlobalNeutral600">#666666</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalNeutral600">#666666</Color>
+        <!--<Color x:Key="GlobalNeutral700">#4C4C4C</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalNeutral700">#4C4C4C</Color>
+        <!--<Color x:Key="GlobalNeutral400">#999999</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalNeutral400">#999999</Color>
+        <!--<Color x:Key="GlobalNeutral100">#D6D6D6</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalNeutral100">#D6D6D6</Color>
+        <!--<Color x:Key="GlobalNeutral50">#E6E6E6</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalNeutral50">#E6E6E6</Color>
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalNeutral800">#333333</Color>
+        <Color x:Key="GarayColor40">#E6E6E6</Color>
+        <!--<Color x:Key="GlobalDarkGray">#3F3F3F</Color>-->
+        <Color x:Key="DLS_LobbyTheme_Color_GlobalDarkGray">#3F3F3F</Color>
+        <Color x:Key="DLS_LobbyTheme_Color_Primary700">#183751</Color>
+
+
+
+
+        <!--#endregion-->
+
+        <!--#region Black brushes-->
+        <!--<SolidColorBrush
+        x:Key="Black100Brush"
+        po:Freeze="True"
+        Color="{StaticResource black-100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black100Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Black100}" />
+        <!--<SolidColorBrush
+        x:Key="Black-16Brush"
+        po:Freeze="True"
+        Opacity="0.16"
+        Color="{StaticResource black-100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black16Brush"
+    po:Freeze="True"
+    Opacity="0.16"
+    Color="{StaticResource DLS_LobbyTheme_Color_Black100}" />
+        <!--<SolidColorBrush
+        x:Key="Black-24Brush"
+        po:Freeze="True"
+        Opacity="0.24"
+        Color="{StaticResource black-100}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black24Brush"
+    po:Freeze="True"
+    Opacity="0.24"
+    Color="{StaticResource DLS_LobbyTheme_Color_Black100}" />
+
+        <!--<SolidColorBrush
+        x:Key="Black-32Brush"
+        po:Freeze="True"
+        Opacity="0.32"
+        Color="{StaticResource black-100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black32Brush"
+    po:Freeze="True"
+    Opacity="0.32"
+    Color="{StaticResource DLS_LobbyTheme_Color_Black100}" />
+        <!--<SolidColorBrush
+        x:Key="Black-72Brush"
+        po:Freeze="True"
+        Opacity="0.72"
+        Color="{StaticResource black-100}" />-->
+        <!--<SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black72Brush"
+    po:Freeze="True"
+    Opacity="0.72"
+    Color="{StaticResource black-100}" />-->
+        <!--<SolidColorBrush
+        x:Key="Black-8Brush"
+        po:Freeze="True"
+        Opacity="0.08"
+        Color="{StaticResource black-100}" />-->
+        <!--<SolidColorBrush
+        x:Key="Black-80Brush"
+        po:Freeze="True"
+        Opacity="0.80"
+        Color="{StaticResource black-100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black80Brush"
+    po:Freeze="True"
+    Opacity="0.80"
+    Color="{StaticResource DLS_LobbyTheme_Color_Black100}" />
+        <!--<SolidColorBrush
+        x:Key="Black-56Brush"
+        po:Freeze="True"
+        Opacity="0.56"
+        Color="{StaticResource black-100}" />-->
+
+        <!--<SolidColorBrush
+        x:Key="Black-48Brush"
+        po:Freeze="True"
+        Opacity="0.48"
+        Color="{StaticResource black-100}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black48Brush"
+    po:Freeze="True"
+    Opacity="0.48"
+    Color="{StaticResource DLS_LobbyTheme_Color_Black100}" />
+        <!--<SolidColorBrush
+        x:Key="Black-60Brush"
+        po:Freeze="True"
+        Opacity="0.60"
+        Color="{StaticResource black-100}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Black60Brush"
+    po:Freeze="True"
+    Opacity="0.60"
+    Color="{StaticResource DLS_LobbyTheme_Color_Black100}" />
+        <!--<SolidColorBrush x:Key="DLS_Lobby_Black15Brush" Color="black" Opacity="0.15" po:Freeze="True"></SolidColorBrush>-->
+        <!--<SolidColorBrush x:Key="DLS_Lobby_Black20Brush" Color="Black" Opacity="0.2" po:Freeze="True"></SolidColorBrush>-->
+        <!--#endregion Black brushes-->
+
+        <!--#region Moccasin brushes-->
+        <!--<SolidColorBrush
+        x:Key="MoccasinBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Moccasin}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_MoccasinBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Moccasin}" />
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Text_Color_MoccasinBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Moccasin}" />
+        <!--<SolidColorBrush
+        x:Key="Moccasin-72Brush"
+        po:Freeze="True"
+        Opacity="0.72"
+        Color="{StaticResource DLS_LobbyTheme_Color_Moccasin}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Moccasin72Brush"
+    po:Freeze="True"
+    Opacity="0.72"
+    Color="{StaticResource DLS_LobbyTheme_Color_Moccasin}" />
+        <!--<SolidColorBrush
+        x:Key="Moccasin-30Brush"
+        po:Freeze="True"
+        Opacity="0.30"
+        Color="{StaticResource DLS_LobbyTheme_Color_Moccasin}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Moccasin30Brush"
+    po:Freeze="True"
+    Opacity="0.30"
+    Color="{StaticResource DLS_LobbyTheme_Color_Moccasin}" />
+        <!--#endregion-->
+
+        <!--#region Blue brushes-->
+        <!--<SolidColorBrush
+        x:Key="BlueBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Blue}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_BlueBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Blue}" />
+        <!--<SolidColorBrush
+        x:Key="Sky-blueBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Skyblue}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_SkyblueBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Skyblue}" />
+        <!--<SolidColorBrush
+        x:Key="Sky-blue-72Brush"
+        po:Freeze="True"
+        Opacity="0.72"
+        Color="{StaticResource DLS_LobbyTheme_Color_Skyblue}" />-->
+        <!--<SolidColorBrush
+        x:Key="Pop-up-blueBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Popupblue}" />-->
+        <!--<SolidColorBrush
+        x:Key="Dark-blueBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Darkblue}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_DarkblueBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Darkblue}" />
+
+        <!--<SolidColorBrush
+        x:Key="HighlightblueBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Highlightblue}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_HighlightblueBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Highlightblue}" />
+
+        <!--<SolidColorBrush
+        x:Key="Sky-blue-100Brush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Skyblue100}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Skyblue100Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Skyblue100}" />
+
+        <!--#endregion-->
+
+        <!--#region Indigo brushes-->
+        <!--<SolidColorBrush
+        x:Key="Indigo-500"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Indigo500}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Indigo500Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Indigo500}" />
+        <!--#endregion-->
+
+        <!--#region White Colors-->
+        <!--<SolidColorBrush
+        x:Key="White-100Brush"
+        po:Freeze="True"
+        Opacity="1"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White100Brush"
+    po:Freeze="True"
+    Opacity="1"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-8Brush"
+        po:Freeze="True"
+        Opacity="0.08"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White8Brush"
+    po:Freeze="True"
+    Opacity="0.08"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+
+        <!--<SolidColorBrush
+        x:Key="White-16Brush"
+        po:Freeze="True"
+        Opacity="0.16"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White16Brush"
+    po:Freeze="True"
+    Opacity="0.16"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-24Brush"
+        po:Freeze="True"
+        Opacity="0.24"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White24Brush"
+    po:Freeze="True"
+    Opacity="0.24"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-32Brush"
+        po:Freeze="True"
+        Opacity="0.32"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White32Brush"
+    po:Freeze="True"
+    Opacity="0.32"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-4Brush"
+        po:Freeze="True"
+        Opacity="0.04"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White4Brush"
+    po:Freeze="True"
+    Opacity="0.04"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-40Brush"
+        po:Freeze="True"
+        Opacity="0.40"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White40Brush"
+    po:Freeze="True"
+    Opacity="0.40"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-56Brush"
+        po:Freeze="True"
+        Opacity="0.56"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White56Brush"
+    po:Freeze="True"
+    Opacity="0.56"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-50Brush"
+        po:Freeze="True"
+        Opacity="0.50"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White50Brush"
+    po:Freeze="True"
+    Opacity="0.50"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-72Brush"
+        po:Freeze="True"
+        Opacity="0.72"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White72Brush"
+    po:Freeze="True"
+    Opacity="0.72"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="White-80Brush"
+        po:Freeze="True"
+        Opacity="0.80"
+        Color="{StaticResource DLS_LobbyTheme_Color_White100}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_White80Brush"
+    po:Freeze="True"
+    Opacity="0.80"
+    Color="{StaticResource DLS_LobbyTheme_Color_White100}" />
+        <!--<SolidColorBrush
+        x:Key="WhiteBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_White}" />-->
+        <SolidColorBrush x:Key="DLS_LobbyTheme_Color_White15Brush" Color="White" Opacity="0.10" po:Freeze="True"></SolidColorBrush>
+        <!--#endregion-->
+
+        <!--  Green Brushes  -->
+        <!--<SolidColorBrush
+        x:Key="GreenBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Green}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_GreenBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Green}" />
+        <!--<SolidColorBrush
+        x:Key="Green-2707Brush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Green2707}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Green2707Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Green2707}" />
+
+        <!--<SolidColorBrush
+        x:Key="screaming-greenBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Screaminggreen}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_ScreaminggreenBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Screaminggreen}" />
+        <!--<SolidColorBrush
+        x:Key="Light-lime-greenBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_LightLimeGreen}" />-->
+
+
+        <!--  Red Brushes  -->
+        <!--<SolidColorBrush
+        x:Key="Danger-redBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_DangerRed}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_DangerredBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_DangerRed}" />
+
+        <!--  Orange Brushes  -->
+        <!--<SolidColorBrush
+        x:Key="OrangeBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Orange}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_OrangeBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Orange}" />
+        <!--<SolidColorBrush
+        x:Key="Bright-OrangeBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_BrightOrange}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_BrightOrangeBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_BrightOrange}" />
+        <SolidColorBrush
+        x:Key="DLS_LobbyTheme_Color_BrightOrange24Brush"
+        po:Freeze="True"
+        Opacity="0.24"
+        Color="{DynamicResource DLS_LobbyTheme_Color_BrightOrange}" />
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_MangoOrange100Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_MangoOrange100}" />
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Warning100Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Warning100}" />
+
+        <!--  Purple Brushes  -->
+        <!--<SolidColorBrush
+        x:Key="Darker-purpleBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Darkerpurple}" />-->
+
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_DarkerpurpleBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Darkerpurple}" />
+        <!--<SolidColorBrush
+        x:Key="PurpleBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Purple}" />-->
+        <!--<SolidColorBrush
+        x:Key="Purple-2607Brush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Purple2607}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Purple2607Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Purple2607}" />
+        <!--<SolidColorBrush
+        x:Key="Regal-BlueBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_RegalBlue}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_RegalBlueBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_RegalBlue}" />
+        <!--<SolidColorBrush
+        x:Key="Purple-secondaryBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Purplesecondary}" />-->
+        <!--  Yellow Brushes  -->
+        <!--<SolidColorBrush
+        x:Key="YellowBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Yellow}" />-->
+        <!--<SolidColorBrush
+        x:Key="Yellow-2707Brush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Yellow2707}" />-->
+
+        <!--Misc Brushes-->
+        <!--<SolidColorBrush po:Freeze="True" x:Key="Light-cyanBrush" 
+                       Color="{StaticResource DLS_LobbyTheme_Color_Lightcyan}" />-->
+        <!--<SolidColorBrush po:Freeze="True" x:Key="LimeBrush" 
+                       Color="{StaticResource DLS_LobbyTheme_Color_Lime}" />-->
+        <!--<SolidColorBrush po:Freeze="True" x:Key="AquaFocusBrush" 
+                       Color="{StaticResource DLS_LobbyTheme_AquaFocusColor}" />-->
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_AquaFocusBrush" 
+                   Color="{StaticResource DLS_LobbyTheme_AquaFocusColor}" />
+        <!--<SolidColorBrush po:Freeze="True" x:Key="AquaFocus500Brush" 
+                       Color="{StaticResource DLS_LobbyTheme_Color_AquaFocus500}" />-->
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_AquaFocus500Brush" 
+                   Color="{StaticResource DLS_LobbyTheme_Color_AquaFocus500}" />
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_AquaFocus800_85Brush" 
+                   Opacity="0.85" Color="{StaticResource DLS_LobbyTheme_Color_AquaFocus800}" />
+        <!--<SolidColorBrush po:Freeze="True" x:Key="TransparentBrush" 
+                       Color="Transparent" />-->
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_TransparentBrush" 
+                   Color="Transparent" />
+        <!--<SolidColorBrush po:Freeze="True" x:Key="AquaShadowBrush" 
+                       Color="{StaticResource DLS_LobbyTheme_AquaShadowColor}" />-->
+        <!--<SolidColorBrush po:Freeze="True" x:Key="Light-greyBrush" 
+                 Color="{StaticResource DLS_LobbyTheme_Color_Lightgrey}" />-->
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_LightgreyBrush" 
+                   Color="{StaticResource DLS_LobbyTheme_Color_Lightgrey}" />
+        <!--<SolidColorBrush po:Freeze="True" x:Key="Dark-greyBrush" 
+                 Color="{StaticResource DLS_LobbyTheme_Color_Darkgrey}" />-->
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_DarkgreyBrush" 
+                   Color="{StaticResource DLS_LobbyTheme_Color_Darkgrey}" />
+        <!--<SolidColorBrush po:Freeze="True" x:Key="hot-pinkBrush" 
+                 Color="{StaticResource DLS_LobbyTheme_Color_Hotpink}" />-->
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_HotpinkBrush" 
+                   Color="{StaticResource DLS_LobbyTheme_Color_Hotpink}" />
+        <!--ToDo  need to change the key of the color.-->
+        <!--<SolidColorBrush po:Freeze="True" x:Key="light-pinkBrush" 
+                 Color="{StaticResource DLS_LobbyTheme_Color_Hotpink}" />-->
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_GlobalNeutral100Brush" 
+                   Color="{StaticResource DLS_LobbyTheme_Color_GlobalNeutral100}"/>
+
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_MangoOrange400CustomBrush"
+                   Color="{StaticResource DLS_LobbyTheme_Color_MangoOrange400Custom}"/>
+
+        <SolidColorBrush po:Freeze="True" x:Key="DLS_LobbyTheme_Color_Warning500CustomBrush"
+                   Color="{StaticResource DLS_LobbyTheme_Color_Warning500Custom}"/>
+
+        <!--#endregion-->
+
+        <!--#region Gray Brushes-->
+        <!--<SolidColorBrush
+        x:Key="LightGreyBrush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Lightgrey1}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_LightGreyBrush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Lightgrey1}" />
+        <!--<SolidColorBrush
+        x:Key="LightGrey-30Brush"
+        po:Freeze="True"
+        Opacity="0.30"
+        Color="{StaticResource DLS_LobbyTheme_Color_Lightgrey1}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_LightGrey30Brush"
+    po:Freeze="True"
+    Opacity="0.30"
+    Color="{StaticResource DLS_LobbyTheme_Color_Lightgrey1}" />
+        <!--#endregion Gray Brushes-->
+
+        <!--#region Indigo Brushes-->
+        <!--<SolidColorBrush
+        x:Key="Indigo-600"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Darkerblue}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Indigo600"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Darkerblue}" />
+        <!--#endregion Indigo Brushes-->
+
+        <!--#region Olive Green -->
+        <!--<SolidColorBrush
+        x:Key="OliveGreen24Brush"
+        po:Freeze="True"
+        Opacity=".24"
+        Color="{StaticResource DLS_LobbyTheme_Color_OliveGreen}" />-->
+        <!--#endregion-->
+
+        <!--#region Error500  -->
+        <!--<SolidColorBrush
+        x:Key="Error500Brush"
+        po:Freeze="True"
+        Color="{StaticResource DLS_LobbyTheme_Color_Error500}" />-->
+        <SolidColorBrush
+    x:Key="DLS_LobbyTheme_Color_Error500Brush"
+    po:Freeze="True"
+    Color="{StaticResource DLS_LobbyTheme_Color_Error500}" />
+        <!--#endregion-->
+
+    <DrawingGroup x:Key="login_blue_buttonDrawingGroup" ClipGeometry="M0,0 V32 H214 V0 H0 Z">
+        <GeometryDrawing Brush="#FF50EFF9">
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="16" RadiusY="16" Rect="0,0,214,32" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_BlueButton" Drawing="{StaticResource login_blue_buttonDrawingGroup}" />
+
+    <DrawingGroup x:Key="login_blue_button_clickDrawingGroup" ClipGeometry="M0,0 V40 H222 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing>
+                <GeometryDrawing.Brush>
+                    <LinearGradientBrush StartPoint="178.959,-3.42858" EndPoint="187.752,33.9306" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1">
+                        <GradientStop Color="#FFFEFEFE" Offset="0" />
+                        <GradientStop Color="#FFCDF2F0" Offset="1" />
+                    </LinearGradientBrush>
+                </GeometryDrawing.Brush>
+                <GeometryDrawing.Geometry>
+                    <RectangleGeometry RadiusX="16" RadiusY="16" Rect="4,4,214,32" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_BlueButton_Click" Drawing="{StaticResource login_blue_button_clickDrawingGroup}" />
+
+    <DrawingGroup x:Key="login_blue_button_hoverDrawingGroup" ClipGeometry="M0,0 V42 H222 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing>
+                <GeometryDrawing.Brush>
+                    <LinearGradientBrush StartPoint="178.959,-5.42858" EndPoint="187.752,31.9306" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1">
+                        <GradientStop Color="#FFFEFEFE" Offset="0" />
+                        <GradientStop Color="#FFCDF2F0" Offset="1" />
+                    </LinearGradientBrush>
+                </GeometryDrawing.Brush>
+                <GeometryDrawing.Geometry>
+                    <RectangleGeometry RadiusX="16" RadiusY="16" Rect="4,2,214,32" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_BlueButton_Hover" Drawing="{StaticResource login_blue_button_hoverDrawingGroup}" />
+
+    <DrawingGroup x:Key="text_boxDrawingGroup" ClipGeometry="M0,0 V40 H268 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing>
+                <GeometryDrawing.Brush>
+                    <SolidColorBrush po:Freeze="True" Color="#FFFFFFFF" Opacity="0.04" />
+                </GeometryDrawing.Brush>
+                <GeometryDrawing.Geometry>
+                    <RectangleGeometry RadiusX="8" RadiusY="8" Rect="4,0,260,32" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+            <GeometryDrawing>
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                        <Pen.Brush>
+                            <SolidColorBrush po:Freeze="True" Color="#FFFFFFFF" Opacity="0.5" />
+                        </Pen.Brush>
+                    </Pen>
+                </GeometryDrawing.Pen>
+                <GeometryDrawing.Geometry>
+                    <RectangleGeometry RadiusX="7.5" RadiusY="7.5" Rect="4.5,0.5,259,31" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_Textbox_Background" Drawing="{StaticResource text_boxDrawingGroup}" />
+
+
+    <Geometry x:Key="login_popup_bgGeometry1">F1 M456,644z M0,0z M0,8C0,3.6,3.6,0,8,0L448,0C452.4,0,456,3.6,456,8L456,172.7C456,174,455.7,175.3,455.1,176.4L440.8,203.9C440.2,205,439.9,206.3,439.9,207.6L439.9,436.5C439.9,437.8,440.2,439.1,440.8,440.2L455.1,467.3C455.7,468.5,456,469.7,456,471L456,635.6C456,640,452.4,643.6,448,643.6L8,643.6C3.6,643.6,0,640,0,635.6L0,471C0,469.7,0.3,468.4,0.9,467.3L15.2,440.2C15.8,439,16.1,437.8,16.1,436.5L16.1,207.5C16.1,206.2,15.8,204.9,15.2,203.8L0.9,176.4C0.3,175.2,0,174,0,172.7L0,8z</Geometry>
+    <Geometry x:Key="login_popup_bgGeometry2">F0 M456,644z M0,0z M0,0.6L4,0.6 4,174.3 20,205.3 20,440.1 4.5,470.1 4.5,643 0.5,643 0.5,469.3 16,439.3 16,206.4 0,175.4 0,0.6z</Geometry>
+    <Geometry x:Key="login_popup_bgGeometry3">F0 M456,644z M0,0z M456,644L452,644 452,470.3 436,439.3 436,204.4 451.5,174.4 451.5,1.6 455.5,1.6 455.5,175.3 440,205.3 440,438.1 456,469.1 456,644z</Geometry>
+    <DrawingGroup x:Key="login_popup_bgDrawingGroup" ClipGeometry="M0,0 V644 H456 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing Geometry="{StaticResource login_popup_bgGeometry1}">
+                <GeometryDrawing.Brush>
+                    <RadialGradientBrush Center="84.1806,606.921" RadiusX="1" RadiusY="1" GradientOrigin="84.1806,606.921" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1" Transform="2E-14,-322.573,-366.926,-2.3E-14,222942.1406,27483.4629">
+                        <GradientStop Color="#FF241D57" Offset="0.77079999999999993" />
+                        <GradientStop Color="#00362B66" Offset="1" />
+                    </RadialGradientBrush>
+                </GeometryDrawing.Brush>
+            </GeometryDrawing>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing Geometry="{StaticResource login_popup_bgGeometry2}">
+                <GeometryDrawing.Brush>
+                    <RadialGradientBrush Center="83.8027,606.5497" RadiusX="1" RadiusY="1" GradientOrigin="83.8027,606.5497" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1" Transform="1.8E-14,294.7451,1012.13,-6.2E-14,-613883.5625,-24380.6152">
+                        <GradientStop Color="#FF50EFF9" Offset="0" />
+                        <GradientStop Color="#504499FD" Offset="0.6875" />
+                        <GradientStop Color="#003FD1FF" Offset="1" />
+                    </RadialGradientBrush>
+                </GeometryDrawing.Brush>
+            </GeometryDrawing>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing Geometry="{StaticResource login_popup_bgGeometry3}">
+                <GeometryDrawing.Brush>
+                    <RadialGradientBrush Center="84.1973,606.7473" RadiusX="1" RadiusY="1" GradientOrigin="84.1973,606.7473" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1" Transform="1.8E-14,-294.7451,-1012.13,-6.2E-14,614539.5625,25141.5527">
+                        <GradientStop Color="#FF50EFF9" Offset="0" />
+                        <GradientStop Color="#504499FD" Offset="0.6875" />
+                        <GradientStop Color="#003FD1FF" Offset="1" />
+                    </RadialGradientBrush>
+                </GeometryDrawing.Brush>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_Background" Drawing="{StaticResource login_popup_bgDrawingGroup}" />
+
+    <DrawingGroup x:Key="login_popup_rightsideBorder" ClipGeometry="M0,0 V644 H456 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing Geometry="{StaticResource login_popup_bgGeometry3}">
+                <GeometryDrawing.Brush>
+                    <RadialGradientBrush Center="84.1973,606.7473" RadiusX="1" RadiusY="1" GradientOrigin="84.1973,606.7473" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1" Transform="1.8E-14,-294.7451,-1012.13,-6.2E-14,614539.5625,25141.5527">
+                        <GradientStop Color="#FF50EFF9" Offset="0" />
+                        <GradientStop Color="#504499FD" Offset="0.6875" />
+                        <GradientStop Color="#003FD1FF" Offset="1" />
+                    </RadialGradientBrush>
+                </GeometryDrawing.Brush>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_RightSideBorder" Drawing="{StaticResource login_popup_rightsideBorder}" />
+
+    <DrawingGroup x:Key="login_popup_leftsideBorder" ClipGeometry="M0,0 V644 H456 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing Geometry="{StaticResource login_popup_bgGeometry2}">
+                <GeometryDrawing.Brush>
+                    <RadialGradientBrush Center="83.8027,606.5497" RadiusX="1" RadiusY="1" GradientOrigin="83.8027,606.5497" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1" Transform="1.8E-14,294.7451,1012.13,-6.2E-14,-613883.5625,-24380.6152">
+                        <GradientStop Color="#FF50EFF9" Offset="0" />
+                        <GradientStop Color="#504499FD" Offset="0.6875" />
+                        <GradientStop Color="#003FD1FF" Offset="1" />
+                    </RadialGradientBrush>
+                </GeometryDrawing.Brush>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_LeftSideBorder" Drawing="{StaticResource login_popup_leftsideBorder}" />
+
+
+    <DrawingGroup x:Key="overlay_blurDrawingGroup" ClipGeometry="M0,0 V729 H1229 V0 H0 Z">
+        <DrawingGroup Opacity="1">
+            <GeometryDrawing>
+                <GeometryDrawing.Brush>
+                    <SolidColorBrush po:Freeze="True" Color="#FF000000" Opacity="0.19" />
+                </GeometryDrawing.Brush>
+                <GeometryDrawing.Geometry>
+                    <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,1230,729" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_OverlayBlur_Background" Drawing="{StaticResource overlay_blurDrawingGroup}" />
+
+    <Geometry x:Key="info_iconGeometry">F1 M17,20z M0,0z M7.828,6.536L7.828,5.084 9.472,5.084 9.472,6.536 7.828,6.536z M7.84,14L7.84,7.88 9.448,7.88 9.448,14 7.84,14z</Geometry>
+    <DrawingGroup x:Key="info_iconDrawingGroup" ClipGeometry="M0,0 V20 H17 V0 H0 Z">
+        <GeometryDrawing Brush="#FF50EFF9">
+            <GeometryDrawing.Geometry>
+                <EllipseGeometry RadiusX="8.5" RadiusY="8.5265" Center="8.5,9.5299" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FF224F74" Geometry="{StaticResource info_iconGeometry}" />
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_InfoIcon" Drawing="{StaticResource info_iconDrawingGroup}" />
+
+    <Geometry x:Key="check_boxGeometry">F1 M24,24z M0,0z M5,6.875C5,5.83947,5.83947,5,6.875,5L18.125,5C19.1605,5,20,5.83947,20,6.875L20,18.125C20,19.1605,19.1605,20,18.125,20L6.875,20C5.83947,20,5,19.1605,5,18.125L5,6.875z M6.875,6.25C6.52982,6.25,6.25,6.52982,6.25,6.875L6.25,18.125C6.25,18.4702,6.52982,18.75,6.875,18.75L18.125,18.75C18.4702,18.75,18.75,18.4702,18.75,18.125L18.75,6.875C18.75,6.52982,18.4702,6.25,18.125,6.25L6.875,6.25z</Geometry>
+    <DrawingGroup x:Key="check_boxDrawingGroup" ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+        <GeometryDrawing>
+            <GeometryDrawing.Brush>
+                <SolidColorBrush po:Freeze="True" Color="#FFFFFFFF" Opacity="0.16" />
+            </GeometryDrawing.Brush>
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="0.5" RadiusY="0.5" Rect="6.2461,6.25,12.5,12.5" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Geometry="{StaticResource check_boxGeometry}">
+            <GeometryDrawing.Brush>
+                <SolidColorBrush po:Freeze="True" Color="#FFFFFFFF" Opacity="0.72" />
+            </GeometryDrawing.Brush>
+        </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_Checkbox" Drawing="{StaticResource check_boxDrawingGroup}" />
+
+    <Geometry x:Key="check_box_selGeometry">F1 M24,24z M0,0z M16.0621,9.7664C16.3061,10.0105,16.3061,10.4062,16.062,10.6503L11.8954,14.8168C11.6513,15.0608,11.2556,15.0608,11.0115,14.8167L9.34167,13.1469C9.09759,12.9029 9.09759,12.5071 9.34167,12.263 9.58575,12.019 9.98147,12.019 10.2256,12.263L11.4534,13.4909 15.1782,9.76638C15.4223,9.52231,15.818,9.52232,16.0621,9.7664z M5,6.875C5,5.83947,5.83947,5,6.875,5L18.125,5C19.1605,5,20,5.83947,20,6.875L20,18.125C20,19.1605,19.1605,20,18.125,20L6.875,20C5.83947,20,5,19.1605,5,18.125L5,6.875z M6.875,6.25C6.52982,6.25,6.25,6.52982,6.25,6.875L6.25,18.125C6.25,18.4702,6.52982,18.75,6.875,18.75L18.125,18.75C18.4702,18.75,18.75,18.4702,18.75,18.125L18.75,6.875C18.75,6.52982,18.4702,6.25,18.125,6.25L6.875,6.25z</Geometry>
+    <DrawingGroup x:Key="check_box_selDrawingGroup" ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+        <GeometryDrawing>
+            <GeometryDrawing.Brush>
+                <SolidColorBrush po:Freeze="True" Color="#FFFFFFFF" Opacity="0.16" />
+            </GeometryDrawing.Brush>
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="0.5" RadiusY="0.5" Rect="6,6,12.5,12.5" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource check_box_selGeometry}" />
+    </DrawingGroup>
+    <DrawingImage po:Freeze="True" x:Key="DLS_Login_Checkbox_Selection" Drawing="{StaticResource check_box_selDrawingGroup}" />
+    <!--#endregion-->
+
+
+    <!--Login Popup -->
+
+    <BitmapImage x:Key="Login_Popup_HeaderPatches"  UriSource=""/>
+    <!--<LinearGradientBrush x:Key="DLS_Login_TopBackground" StartPoint="0.5,0" EndPoint="0.5,1" Opacity="1">
+    <GradientStop Color="#00111213" Offset="0" />
+    <GradientStop Color="#FF111213" Offset="0.191543" />
+    <GradientStop Color="#FF111213" Offset="0.286458" />
+    <GradientStop Color="#00111213" Offset="0.375" />
+    <GradientStop Color="#00111213" Offset="0.645833" />
+    <GradientStop Color="#FF111213" Offset="0.770833" />
+    <GradientStop Color="#FF111213" Offset="0.89031" />
+    <GradientStop Color="#00111213" Offset="1" />
+  </LinearGradientBrush>-->
+
+
+
+    <LinearGradientBrush x:Key="DLS_Login_TopBackground" StartPoint="0.5,1" EndPoint="0.5,0" Opacity="1">
+        <GradientStop Color="#FF111213" Offset="0" />
+        <GradientStop Color="#FF111213" Offset="0.5" />
+        <GradientStop Color="#00111213" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="DLS_Login_BottomBackground" StartPoint="0.5,0" EndPoint="0.5,1" Opacity="1">
+        <GradientStop Color="#FF111213" Offset="0" />
+        <GradientStop Color="#FF111213" Offset="0.5" />
+        <GradientStop Color="#00111213" Offset="1" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush  x:Key="DLS_Login_MiddleBackground" 
+                    Color="#111213" />
+    <Geometry x:Key="trapezium_topGeometry1">F1 M459,32z M0,0z M441,0L17,0 1,0 17,32 441,32 457,0 441,0z</Geometry>
+    <Geometry x:Key="trapezium_topGeometry2">F1 M459,32z M0,0z M443,32L459,0 457,0 441,32 443,32z</Geometry>
+    <Geometry x:Key="trapezium_topGeometry3">F1 M459,32z M0,0z M16,32L0,0 2,0 18,32 16,32z</Geometry>
+    <DrawingGroup x:Key="trapezium_topDrawingGroup" ClipGeometry="M0,0 V32 H459 V0 H0 Z">
+        <GeometryDrawing Brush="#111213" Geometry="{StaticResource trapezium_topGeometry1}" />
+        <GeometryDrawing Brush="#FFA4A6A7" Geometry="{StaticResource trapezium_topGeometry2}" />
+        <GeometryDrawing Brush="#FFA4A6A7" Geometry="{StaticResource trapezium_topGeometry3}" />
+    </DrawingGroup>
+    <DrawingImage x:Key="DLS_Lobby_LoginWindow_trapezium_topDrawingImage" Drawing="{StaticResource trapezium_topDrawingGroup}" />
+
+    <Geometry x:Key="trapezium_bottomGeometry1">F1 M459,32z M0,0z M442,0L18,0 2,32 18,32 442,32 458,32 442,0z</Geometry>
+    <Geometry x:Key="trapezium_bottomGeometry2">F1 M459,32z M0,0z M16,0L0,32 2,32 18,0 16,0z</Geometry>
+    <Geometry x:Key="trapezium_bottomGeometry3">F1 M459,32z M0,0z M443,0L459,32 457,32 441,0 443,0z</Geometry>
+    <DrawingGroup x:Key="trapezium_bottomDrawingGroup" ClipGeometry="M0,0 V32 H459 V0 H0 Z">
+        <GeometryDrawing Brush="#111213" Geometry="{StaticResource trapezium_bottomGeometry1}" />
+        <GeometryDrawing Brush="#FFA4A6A7" Geometry="{StaticResource trapezium_bottomGeometry2}" />
+        <GeometryDrawing Brush="#FFA4A6A7" Geometry="{StaticResource trapezium_bottomGeometry3}" />
+    </DrawingGroup>
+    <DrawingImage x:Key="DLS_Lobby_LoginWindow_trapezium_BottomDrawingImage" Drawing="{StaticResource trapezium_bottomDrawingGroup}" />
+
+    <LinearGradientBrush  x:Key="DLS_LobbyTheme_LoginWindow_TopBorderBrush_GradientBrush" StartPoint="0.5,1" EndPoint="0.5,0"  Opacity="1">
+        <GradientStop Color="#FF9EA0A1" Offset="0" />
+        <GradientStop Color="#FF9EA0A1" Offset="0.723958" />
+        <GradientStop Color="#009EA0A1" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush  x:Key="DLS_LobbyTheme_LoginWindow_BottomBorderBrush_GradientBrush" StartPoint="0.5,0" EndPoint="0.5,1"  Opacity="1">
+        <GradientStop Color="#FF9EA0A1" Offset="0" />
+        <GradientStop Color="#FF9EA0A1" Offset="0.723958" />
+        <GradientStop Color="#009EA0A1" Offset="1" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="DLS_LobbyTheme_LoginWindow_Middle_BorderBrush" Color="#FFA4A6A7" />
+
+    <DrawingImage x:Key="DLS_LobbyTheme_Welcome_Popup_LineAsset">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V4 H282 V0 H0 Z">
+                <DrawingGroup Opacity="1" Transform="1.1925E-08,-1,-1,-1.19248E-08,281,2.08002">
+                    <GeometryDrawing>
+                        <GeometryDrawing.Brush>
+                            <RadialGradientBrush Center="0,0" RadiusX="1" RadiusY="1" GradientOrigin="0,0" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1" Transform="-0.633296735228657,133.695500089738,-43.9911064702104,-0.208379669382895,0.899994,139.13">
+                                <GradientStop Color="#FFFFFFFF" Offset="0" />
+                                <GradientStop Color="#00FFFFFF" Offset="1" />
+                            </RadialGradientBrush>
+                        </GeometryDrawing.Brush>
+                        <GeometryDrawing.Geometry>
+                            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,1,280" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <SolidColorBrush x:Key="DLS_LobbyTheme_LoginWindow_BlurEffect_Brush" Color="#FF000000" Opacity="0.8" />
+    <SolidColorBrush x:Key="DLS_LobbyTheme_LoginWindow_ForgotPassword_TextBrush" Color="{DynamicResource DLS_LobbyTheme_Color_Skyblue500}"/>
+
+    <Style x:Key="DLS_Lobby_LoginWindow_TopBackground" TargetType="Grid">
+        <Setter Property="Background" Value="{DynamicResource DLS_Login_TopBackground}">
+
+        </Setter>
+    </Style>
+
+    <Style x:Key="DLS_Lobby_LoginWindow_TopBorderBrush_Left" TargetType="Border">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Width" Value="2" />
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="BorderBrush" Value="{DynamicResource DLS_LobbyTheme_LoginWindow_TopBorderBrush_GradientBrush}" />
+    </Style>
+
+    <Style x:Key="DLS_Lobby_LoginWindow_TopBorderBrush_Right" TargetType="Border" BasedOn="{StaticResource DLS_Lobby_LoginWindow_TopBorderBrush_Left }">
+        <Setter Property="HorizontalAlignment" Value="Right" />
+    </Style>
+
+
+
+    <Style x:Key="DLS_Lobby_LoginWindow_MiddleBackground" TargetType="Grid">
+        <Setter Property="Margin" Value="16,0,16,0" />
+        <Setter Property="Background" Value="{DynamicResource DLS_Login_MiddleBackground}"/>
+    </Style>
+
+    <Style x:Key="DLS_Lobby_LoginWindow_MiddleBorderBrush_Left" TargetType="Border">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Width" Value="2" />
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="BorderBrush" Value="{DynamicResource DLS_LobbyTheme_LoginWindow_Middle_BorderBrush}" >
+        </Setter>
+    </Style>
+
+    <Style x:Key="DLS_Lobby_LoginWindow_MiddleBorderBrush_Right" TargetType="Border" BasedOn="{StaticResource DLS_Lobby_LoginWindow_MiddleBorderBrush_Left }">
+        <Setter Property="HorizontalAlignment" Value="Right" />
+    </Style>
+
+
+    <Style x:Key="DLS_Lobby_LoginWindow_BottomBorderBrush_Left" TargetType="Border">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Width" Value="2" />
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="BorderBrush" Value="{DynamicResource DLS_LobbyTheme_LoginWindow_BottomBorderBrush_GradientBrush}" />
+    </Style>
+
+    <Style x:Key="DLS_Lobby_LoginWindow_BottomBorderBrush_Right" TargetType="Border" BasedOn="{StaticResource DLS_Lobby_LoginWindow_BottomBorderBrush_Left }">
+        <Setter Property="HorizontalAlignment" Value="Right" />
+    </Style>
+
+    <Style x:Key="DLS_Lobby_LoginWindow_BottomBackground" TargetType="Grid">
+        <Setter Property="Background" Value="{DynamicResource DLS_Login_BottomBackground}">
+            <!--<Setter.Value>
+            <RadialGradientBrush Center="0,0" RadiusX="1" RadiusY="1" GradientOrigin="0,0" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1" Transform="-1.98687056731582,208.185519117802,-577.695691422824,-5.51338330839275,221.542,-38.185">
+              <GradientStop Color="#FF362B66" Offset="0.723958" />
+              <GradientStop Color="#00130E32" Offset="1" />
+            </RadialGradientBrush>
+          </Setter.Value>-->
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

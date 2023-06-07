@@ -1,0 +1,152 @@
+﻿<Window x:Class="Anime_3D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Anime_3D"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+        <DockPanel>
+            <Viewbox>
+                <Canvas Width="321" Height="201">
+
+                    <Viewport3D Name="MyAnimatedObject"
+          ClipToBounds="False" Width="150" Height="150"
+          Canvas.Left="0" Canvas.Top="10">
+
+                        <Viewport3D.Camera>
+                            <PerspectiveCamera x:Name="myPerspectiveCamera" Position="0,0,2" LookDirection="0,0,-1" 
+             FieldOfView="60" />
+                        </Viewport3D.Camera>
+
+                        
+                        <Viewport3D.Children>
+
+                            
+                            <ModelVisual3D>
+                                <ModelVisual3D.Content>
+                                    <DirectionalLight Color="#FFFFFF" Direction="-0.612372,-0.5,-0.612372" />
+                                </ModelVisual3D.Content>
+                            </ModelVisual3D>
+                            <ModelVisual3D>
+                                <ModelVisual3D.Content>
+                                    <DirectionalLight Color="#FFFFFF" Direction="0.612372,-0.5,-0.612372" />
+                                </ModelVisual3D.Content>
+                            </ModelVisual3D>
+                            <ModelVisual3D>
+                                
+                                <ModelVisual3D.Content>
+                                    <GeometryModel3D>
+                                        
+                                         
+                                        <GeometryModel3D.Geometry>
+                                            <MeshGeometry3D
+                     TriangleIndices="0,1,2 3,4,5 "
+                     Normals="0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 "
+                     TextureCoordinates="0,0 1,0 1,1 1,1 0,1 0,0 "
+                     Positions="-0.5,-0.5,0.5 0.5,-0.5,0.5 0.5,0.5,0.5 0.5,0.5,0.5 -0.5,0.5,0.5 -0.5,-0.5,0.5 " />
+                                            
+                                        </GeometryModel3D.Geometry>
+                                        
+                                        
+                                        <GeometryModel3D.Material>
+                                            <MaterialGroup>
+                                                <DiffuseMaterial>
+                                                    <DiffuseMaterial.Brush>
+                                                        <ImageBrush ImageSource="C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\CoinFlipAnimation\CoinFlipAnimation\Coin.jpg" />
+                                                    </DiffuseMaterial.Brush>
+                                                </DiffuseMaterial>
+                                            </MaterialGroup>
+                                        </GeometryModel3D.Material>
+
+                                        
+                                        <GeometryModel3D.BackMaterial>
+                                            <MaterialGroup>
+                                                <DiffuseMaterial>
+                                                    <DiffuseMaterial.Brush>
+                                                        <ImageBrush ImageSource="C:\Users\suresh.pranadarth\source\repos\IVYtraining\WPF\CoinFlipAnimation\CoinFlipAnimation\chatbot.png"/>
+                                                    </DiffuseMaterial.Brush>
+                                                </DiffuseMaterial>
+                                            </MaterialGroup>
+                                        </GeometryModel3D.BackMaterial>
+                                         
+                                        <GeometryModel3D.Transform>
+                                            <RotateTransform3D>
+                                                <RotateTransform3D.Rotation>
+                                                    <AxisAngleRotation3D x:Name="myAngleRotation" Axis="0,3,0" Angle="40" />
+                                                </RotateTransform3D.Rotation>
+                                            </RotateTransform3D>
+                                        </GeometryModel3D.Transform>
+                                    </GeometryModel3D>
+                                </ModelVisual3D.Content>
+                            </ModelVisual3D>
+                        </Viewport3D.Children>
+
+                        
+                        <Viewport3D.Triggers>
+                            <EventTrigger RoutedEvent="Viewport3D.Loaded">
+                                <BeginStoryboard>
+                                    <Storyboard>
+
+                                        
+                                        <DoubleAnimation 
+                   Storyboard.TargetName="myAngleRotation" 
+                   Storyboard.TargetProperty="Angle" 
+                   From="0" To="360" Duration="0:0:4" AutoReverse="True"  RepeatBehavior="Forever"/>
+
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Viewport3D.Triggers>
+                        
+                    </Viewport3D>
+                </Canvas>
+            </Viewbox>
+        </DockPanel>
+    </Page>
+    <!--<Border x:Name="renderPanel" SnapsToDevicePixels="True" >
+        
+        <Viewport3D x:Name="viewPort" >
+            <Viewport3D.Camera >
+                <PerspectiveCamera Position="0, 0, 5" />
+            </Viewport3D.Camera>
+
+            <Viewport2DVisual3D >
+                <Viewport2DVisual3D.Transform>
+                    <RotateTransform3D>
+                        <RotateTransform3D.Rotation>
+                            <AxisAngleRotation3D Angle="0" Axis="0,1,1" />
+                        </RotateTransform3D.Rotation>
+                    </RotateTransform3D>
+                </Viewport2DVisual3D.Transform>
+
+                <Viewport2DVisual3D.Geometry>
+                    <MeshGeometry3D Positions="-1,1,0  -2.1,-1.1,0  1,-1.1,0  2,1,0"
+                                        TextureCoordinates="0,0  0,1  1,1  1,0" 
+                                        TriangleIndices="0 1 2 0 2 3"/>
+                </Viewport2DVisual3D.Geometry>
+
+                <Viewport2DVisual3D.Material>
+                    <DiffuseMaterial Viewport2DVisual3D.IsVisualHostMaterial="True" 
+                                         Brush="White"/>
+                </Viewport2DVisual3D.Material>
+
+                
+                <Border BorderBrush="Black" BorderThickness="1" >
+                    <TextBlock Text="11:35" 
+                                   Foreground="Blue" >
+                    </TextBlock>
+                </Border>
+            </Viewport2DVisual3D>
+
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <DirectionalLight Color="#FFFFFFFF" Direction="0,-1,-1"/>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+        </Viewport3D>
+    </Border>-->
+
+</Window>

@@ -60,19 +60,32 @@
         <RadioButton Name="NA" Content="Not want to reveal" Canvas.Top="68" Canvas.Left="250" />
                 </Canvas>
                 <Label Content="Role" Canvas.Top="90" Canvas.Left="20"  />
-        <ComboBox  Name="Role"   Canvas.Top="90" Canvas.Left="100" Width="100" IsReadOnly="True" Text="Please Select"
+        <!--<ComboBox  Name="Role"   Canvas.Top="90" Canvas.Left="100" Width="100" IsReadOnly="True" Text="Please Select"
                   BorderBrush="Green" BorderThickness="2" SelectionChanged="Role_SelectionChanged" SelectedIndex="0" ScrollViewer.HorizontalScrollBarVisibility="Hidden" >
                     <ComboBoxItem >Select</ComboBoxItem>
                     <ComboBoxItem Content="Student"/>
                     <ComboBoxItem Selected="teach">Teacher</ComboBoxItem>
-        </ComboBox>
+        </ComboBox>-->
+               
 
             <Button Content="Add" Style="{StaticResource AddBtn}"  Canvas.Top="145" Canvas.Left="240"   Click="Add_Button"/>
            
             <Button Content="Close" Style="{StaticResource ClsBtn}"   Canvas.Top="145" Canvas.Left="80"  Click="Close_Button"/>
-             
-        
-        </Canvas>
+                <Button Content=". . ." VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Click="Kebab"
+                        Canvas.Top="90" Canvas.Left="100" RenderTransformOrigin="0.5,0.5" BorderThickness="0" >
+                    <Button.RenderTransform>
+                        <RotateTransform Angle="90" />
+                    </Button.RenderTransform>
+                </Button>
+             <ListBox  Name="Role"   Canvas.Top="90" Canvas.Left="110" Width="100" BorderBrush="Green" BorderThickness="2" Visibility="Collapsed"
+                          SelectionChanged="Role_SelectionChanged" SelectedIndex="-1" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                    <ListBoxItem>Select</ListBoxItem>
+                    <ListBoxItem>Student</ListBoxItem>
+                    <ListBoxItem>Student</ListBoxItem>
+                    <ListBoxItem>Teacher</ListBoxItem>
+             </ListBox>
+
+            </Canvas>
         </Border>
     </Grid>
     

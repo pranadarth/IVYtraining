@@ -40,7 +40,7 @@ namespace _1stApp
             bool m = (bool)male.IsChecked;
             bool f = (bool)female.IsChecked;
             bool n = (bool)NA.IsChecked;
-            string role = Role.Text;
+            string role = Role.SelectedItem.ToString();
             if (name == "" || email == "" || !(m == true || f == true || n == true) || role == "Select")
             {
                 MessageBox.Show("INVALID Input !!");
@@ -69,7 +69,7 @@ namespace _1stApp
                 male.IsChecked = false;
                 female.IsChecked = false;
                 NA.IsChecked = false;
-                Role.Text = "Select";
+                Role.SelectedItem = -1;
 
                 MessageBox.Show("Details Entered Succesfully");
 
@@ -112,12 +112,19 @@ namespace _1stApp
 
         private void Role_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            Role.Visibility = Visibility.Collapsed;
             Console.WriteLine("Checking the combo box - "+ sender);
         }
 
         private void teach(object sender, RoutedEventArgs e)
         {
             Console.WriteLine("Checking the item inside combo box: " + sender);
+        }
+
+        private void Kebab(object sender, RoutedEventArgs e)
+        {
+            Role.Visibility = Visibility.Visible;
+            Role.SelectedIndex = -1;
         }
     }
 }
