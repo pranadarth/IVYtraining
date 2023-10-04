@@ -3,57 +3,75 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:practise2" Height="450" Width="800"
-        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
-       xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
-       
-        mc:Ignorable="d">
+        xmlns:local="clr-namespace:practise2" 
+        mc:Ignorable="d"
+         Height="432" Width="628" 
+        Title="MainWindow">
+
     <Window.Resources>
-        <ResourceDictionary Source="Black.xaml" />
+        <Style x:Key="hoverEffect" TargetType="Border">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="SkyBlue" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+            
+        <Style x:Key="HoverEffectBacground" BasedOn="{StaticResource hoverEffect}" TargetType="Border">
+            <Setter Property="Background" Value="AntiqueWhite" />
+        </Style>
+
+        <Style x:Key="HoverEffectFelt" BasedOn="{StaticResource hoverEffect}" TargetType="Border">
+            <Setter Property="Background" Value="Gray" />
+        </Style>
+
+        <Style x:Key="hoverEffectRim" TargetType="Border">
+            <Setter Property="BorderBrush" Value="LightCoral" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="SkyBlue" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
     </Window.Resources>
 
-    <Grid >
-        <Grid x:Name="Lobby_Login_Grid_ForBlurEffect" Height="650" Width="650" HorizontalAlignment="Center"
-          Background="{DynamicResource DLS_LobbyTheme_LoginWindow_BlurEffect_Brush}">
-            <Grid.Effect>
-                <BlurEffect  Radius="100" KernelType="Box"/>
-            </Grid.Effect>
-        </Grid>
-        <Grid x:Name="Lobby_Login_Grid" Height="628" Width="456" HorizontalAlignment="Center">
-            <Grid.RowDefinitions>
-                <RowDefinition MinHeight="188"></RowDefinition>
-                <RowDefinition MaxHeight="32"></RowDefinition>
-                <RowDefinition MinHeight="188"></RowDefinition>
-                <RowDefinition MaxHeight="32"></RowDefinition>
-                <RowDefinition MinHeight="188"></RowDefinition>
+
+    <!--<Grid SizeChanged="Grid_SizeChanged">
+        
+        <Grid x:Name="GameTableContainer" Margin="50,25" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions >
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-
-            <Grid Grid.Row="0" Style="{StaticResource DLS_Lobby_LoginWindow_TopBackground}">
-
-                <Border Style="{DynamicResource  DLS_Lobby_LoginWindow_TopBorderBrush_Left}" />
-                <Border Style="{DynamicResource  DLS_Lobby_LoginWindow_TopBorderBrush_Right}" />
-                <Image Source="{DynamicResource Login_Popup_HeaderPatches}" VerticalAlignment="Top" Stretch="Uniform"/>
-            </Grid>
-            <Grid Grid.Row="1" Margin="0,-1,0,-1">
-                <Grid.Background>
-                    <ImageBrush ImageSource="{DynamicResource DLS_Lobby_LoginWindow_trapezium_topDrawingImage}"/>
-                </Grid.Background>
-            </Grid>
-            <Grid Grid.Row="2" Style="{StaticResource DLS_Lobby_LoginWindow_MiddleBackground}" >
-                <Border Style="{DynamicResource DLS_Lobby_LoginWindow_MiddleBorderBrush_Left}" />
-                <Border Style="{DynamicResource DLS_Lobby_LoginWindow_MiddleBorderBrush_Right}" />
-            </Grid>
-            <Grid Grid.Row="3" Margin="0,-1,0,-1">
-                <Grid.Background>
-                    <ImageBrush ImageSource="{DynamicResource DLS_Lobby_LoginWindow_trapezium_BottomDrawingImage}"/>
-                </Grid.Background>
-            </Grid>
-            <Grid Grid.Row="4" Style="{StaticResource DLS_Lobby_LoginWindow_BottomBackground}">
-
-                <Border Style="{DynamicResource   DLS_Lobby_LoginWindow_BottomBorderBrush_Left}" />
-                <Border Style="{DynamicResource  DLS_Lobby_LoginWindow_BottomBorderBrush_Right}" />
-            </Grid>
+            <Ellipse x:Name="ellipse" 
+                  Stroke="Black" StrokeThickness="2"  >
+                <Ellipse.Fill>
+                    <RadialGradientBrush  Opacity="1">
+                        <GradientStop Color="Gray" Offset="0" />
+                        <GradientStop Color="#004C8BB9" Offset="1" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
         </Grid>
-    </Grid>
+        <Grid >
+            <Rectangle  Height="20" Width="{Binding ActualHeight, RelativeSource={RelativeSource self}}" 
+                       Fill="Orange" >
+                <Rectangle.RenderTransform>
+                    <TranslateTransform x:Name="element"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Grid>
+        <TextBox x:Name="Angle" Text="0" FontSize="20" Height="50" Width="50" Background="White" />
+    </Grid>-->
+    <Grid>
+        <Border Height="300" Width="300" CornerRadius="8" BorderThickness="2" BorderBrush="Black" Style="{DynamicResource HoverEffectBacground}">
+         
+        </Border>
 
+        <Border Height="200" Width="280" CornerRadius="200"  Style="{DynamicResource HoverEffectFelt}" />
+        <Border   BorderThickness="15" Height="200" Width="280" CornerRadius="200"  Style="{DynamicResource hoverEffectRim}" />
+    </Grid>
 </Window>

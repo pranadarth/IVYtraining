@@ -39,7 +39,7 @@
             </Style.Triggers>
         </Style>
 
-        <Style x:Name="Drowcell"  TargetType="{x:Type DataGridRow}" >
+        <Style x:Name="DrowRow"  TargetType="{x:Type DataGridRow}" >
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="{StaticResource RowSelectedColor}" />
