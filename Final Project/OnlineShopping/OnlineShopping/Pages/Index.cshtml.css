@@ -30,8 +30,9 @@ input[type=email], input[type=password] {
     display: inline-block;
     border: 1px solid black;
     box-sizing: border-box;
-    opacity: 0.4;
+    opacity: 0.5;
     font-size: large;
+    font-weight:800;
     border-radius: 15px;
     
 }
@@ -68,11 +69,10 @@ button[name="Register"] {
 
 /* Center the avatar image inside this container */
 .imgcontainer {
-    height: auto;
     width: 500px;
-    margin-left: 515px;
+    margin: 0 auto; /* This centers the container horizontally */
     padding: 20px;
-  
+    text-align: center;
 }
 
 /* Avatar image */
@@ -86,13 +86,13 @@ img.avatar {
 .container {
     padding: 16px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight:  800;
     margin-left: 25%;
     margin-right: 25%;
-    width:auto;
-    height:auto;
-    margin-top:2%;
-   
+    width: auto;
+    height: auto;
+    margin-top: 2%;
 }
 
 

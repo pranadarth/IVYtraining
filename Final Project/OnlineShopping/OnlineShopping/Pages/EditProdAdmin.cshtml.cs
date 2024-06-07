@@ -17,7 +17,7 @@ namespace OnlineShopping.Pages
             {
                 update.p_id = Convert.ToInt32(Request.Query["id"]);
 
-                string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+                string ConnectionString = "Data Source=(localdb)\\localhost;Initial Catalog=OnlineShopping;;User Id=sa;Password=sql@11;";
                 SqlConnection sqlCon = new SqlConnection(ConnectionString);
                 sqlCon.Open();
                 string query = "select prod_name,category,price,prod_count from products where prod_Id=@id";
@@ -63,7 +63,7 @@ namespace OnlineShopping.Pages
             try
             {
                 update.p_id = Convert.ToInt32(Request.Query["id"]);
-                string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+                string ConnectionString = "Data Source=(localdb)\\localhost;Initial Catalog=OnlineShopping;;User Id=sa;Password=sql@11;";
                 SqlConnection sqlCon = new SqlConnection(ConnectionString);
 
 

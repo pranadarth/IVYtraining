@@ -14,7 +14,7 @@ namespace OnlineShopping.Pages
         {
             try
             {
-                string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+                string ConnectionString = "Data Source=(localdb)\\localhost;Initial Catalog=OnlineShopping;User Id=sa;Password=sql@11;";
                 SqlConnection sqlCon = new SqlConnection(ConnectionString);
 
                 info.c_email = Request.Form["uname"];

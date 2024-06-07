@@ -60,6 +60,8 @@ as
 insert into  products values(@name, @cat, @price, @count, @meta1, @meta2, @sale)
 
 exec addProd 'Realme','Mobile',10000,20, '4GB-Ram 64GB-Storage', 'Mediatek p60'
+exec addProd 'Onelplus','Mobile',60000,20, '8GB-Ram 128GB-Storage', 'Mediatek D9000'
+exec addProd 'Motorola','Mobile',25000,20, '6GB-Ram 128GB-Storage', 'Qualcomm SD 7+gen 1'
 
 create or alter procedure editProd @p_id int,@price int,@count int
 as

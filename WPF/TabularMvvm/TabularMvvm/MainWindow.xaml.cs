@@ -39,21 +39,7 @@ namespace TabularMvvm
             refreshdata();
         }
 
-        public void refreshdata()
-        {
-            SqlConnection con = new SqlConnection(@"Data Source=INLPF3KSCQM;Initial Catalog=Practice;Integrated Security=True;");
-            con.Open();
-            SqlCommand cmd = new SqlCommand("select * from officeData Order by EmpId", con);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            sda.Fill(ds,"office");
-
-            Console.WriteLine(ds.Tables[0]);
-            if (ds.Tables[0].Rows.Count > 0)
-                dataG.ItemsSource = ds.Tables["office"].DefaultView;
-            
-            con.Close();
-        }
+       
 
         private void Refresh(object sender, RoutedEventArgs e)
         {
@@ -114,6 +100,22 @@ namespace TabularMvvm
             refreshdata();
         }
 
-       
+        public void refreshdata()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=INLPF3KSCQM;Initial Catalog=Practice;Integrated Security=True;");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from officeData Order by EmpId", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            sda.Fill(ds, "office");
+
+            Console.WriteLine(ds.Tables[0]);
+            if (ds.Tables[0].Rows.Count > 0)
+                dataG.ItemsSource = ds.Tables["office"].DefaultView;
+
+            con.Close();
+        }
+
+
     }
 }

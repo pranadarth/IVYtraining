@@ -16,7 +16,7 @@ namespace OnlineShopping.Pages
             try
             {
                 info1.c_email = Request.Query["E_Id"];
-                string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+                string ConnectionString = "Data Source=(localdb)\\localhost;Initial Catalog=OnlineShopping;;User Id=sa;Password=sql@11;";
                 SqlConnection sqlCon = new SqlConnection(ConnectionString);
                 sqlCon.Open();
                 string query = "select * from MyCart where Customer_Email = @e_id order by ProductName";

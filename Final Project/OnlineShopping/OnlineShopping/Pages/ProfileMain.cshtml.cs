@@ -18,7 +18,7 @@ namespace OnlineShopping.Pages
             {
                 update.c_email =    Request.Query["E_Id"];
                 Console.WriteLine("Profile Page: "+update.c_email);
-                string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+                string ConnectionString = "Data Source=(localdb)\\localhost;Initial Catalog=OnlineShopping;;User Id=sa;Password=sql@11;";
                 SqlConnection sqlCon = new SqlConnection(ConnectionString);
                 sqlCon.Open();
                 string query = "select UserName,PhoneNumber,PassWord from customers where EmailId = @e_id";
@@ -62,7 +62,7 @@ namespace OnlineShopping.Pages
             try
             {
                 update.c_email = Request.Query["E_Id"];
-                string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+                string ConnectionString = "Data Source=(localdb)\\localhost;Initial Catalog=OnlineShopping;;User Id=sa;Password=sql@11;";
                 SqlConnection sqlCon = new SqlConnection(ConnectionString);
 
               

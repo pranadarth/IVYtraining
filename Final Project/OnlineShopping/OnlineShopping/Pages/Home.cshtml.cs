@@ -21,7 +21,7 @@ namespace OnlineShopping.Pages
                 message = Request.Query["mess"];
                 if(message != "Success") { message = "Not"; }
                 else { message= "1 item added to the cart Successfully!"; }
-                string ConnectionString = "Data Source=INLPF3KSCQM;Initial Catalog=OnlineShopping;Integrated Security=True;";
+                string ConnectionString = "Data Source=(localdb)\\localhost;Initial Catalog=OnlineShopping;;User Id=sa;Password=sql@11;";
                 SqlConnection sqlCon = new SqlConnection(ConnectionString);
                 sqlCon.Open();
                 string query = "select prod_name,price,meta_data1,meta_data2 from products";
