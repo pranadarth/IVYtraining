@@ -3,17 +3,22 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Game" Loaded="Window_Loaded"
+        xmlns:local="clr-namespace:Game" 
         mc:Ignorable="d" Background="Black" KeyDown="Window_KeyDown"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Rectangle x:Name="player" Height="50" Width="20" Fill="White" RenderTransformOrigin="0.5,0.5"  >
+        <Border x:Name="Wall" BorderThickness="3" BorderBrush="White" Margin="5">
+        <Border x:Name="player" Height="50" Width="20" Background="White" RenderTransformOrigin="0.5,0.5" CornerRadius="10 10 0 0" >
             
-            <Rectangle.RenderTransform >
+            <Border.RenderTransform >
                 <TransformGroup>
                     <RotateTransform x:Name="PlayerAngle" />
+                        <TranslateTransform x:Name="PlayerMovement"/>
                 </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
+            </Border.RenderTransform>
+        </Border>
+
+
+        </Border>
     </Grid>
 </Window>
