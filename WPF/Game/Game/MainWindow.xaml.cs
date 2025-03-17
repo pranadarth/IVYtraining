@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Shapes;
 
 namespace Game
 {
@@ -15,12 +18,15 @@ namespace Game
         private int speed = 1;
         private Thread gameThread;
         private Window currentWindow;
+        private List<Rectangle> blocks = new List<Rectangle>();
+        private Random random = new Random();
 
         public MainWindow()
         {
             InitializeComponent();
             currentWindow = Application.Current.MainWindow;
             StartGameThread();
+            GenerateBlocks();
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
@@ -150,6 +156,29 @@ namespace Game
             PlayerAngle.Angle = 0;
             gameOver = false;
             currentDirection = Direction.None;
+        }
+
+        private void GenerateBlocks()
+        {
+            for (int i = 0; i < 5; i++) // Add 5 blocks
+            {
+                Rectangle block = new Rectangle
+                {
+                    Width = 30,
+                    Height = 30,
+                    Fill = Brushes.Red
+                };
+
+                // Randomize position
+                double x = random.Next(0, (int)(gameArea.ActualWidth - 30));
+                double y = random.Next(0, (int)(gameArea.ActualHeight - 30));
+
+                Canvas.SetLeft(block, x);
+                Canvas.SetTop(block, y);
+
+                gameArea.Children.Add(block);
+                blocks.Add(block);
+            }
         }
     }
 }

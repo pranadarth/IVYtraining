@@ -276,21 +276,21 @@
                                 Storyboard.TargetProperty="Angle"
                                 From="0"
                                 To="360"
-                                Duration="0:0:3"
+                                Duration="0:0:1"
                                 RepeatBehavior="Forever" />
                             <DoubleAnimation
                                 Storyboard.TargetName="myAngleRotation1"
                                 Storyboard.TargetProperty="Angle"
                                 From="0"
                                 To="360"
-                                Duration="0:0:3"
+                                Duration="0:0:1"
                                 RepeatBehavior="Forever" />
                             <DoubleAnimation
                                 Storyboard.TargetName="myAngleRotation2"
                                 Storyboard.TargetProperty="Angle"
                                 From="0"
                                 To="360"
-                                Duration="0:0:3"
+                                Duration="0:0:1"
                                 RepeatBehavior="Forever" />
                         </Storyboard>
                     </BeginStoryboard>
